@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] Potential / Kinetic Energy"
 date:   2018-03-19 01:11:59
 author: dsaint31

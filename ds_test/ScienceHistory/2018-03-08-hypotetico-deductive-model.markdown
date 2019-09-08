@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Hypothetico-deductive model(가설-연역적 모형, 과학적 방법론)"
 date:   2016-03-18 08:43:59
 author: dsaint31

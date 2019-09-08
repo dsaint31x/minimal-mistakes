@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Google Classroom 사용법(학생)"
 date:   2018-03-08 14:47:59
 author: dsaint31

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[History_of_Science] Aristotle's Mechanics"
 date:   2018-03-12 14:47:59
 author: dsaint31

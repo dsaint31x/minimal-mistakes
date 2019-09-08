@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[PS] Central Limit Theorem"
 date:   2018-05-14 22:33:59
 author: dsaint31

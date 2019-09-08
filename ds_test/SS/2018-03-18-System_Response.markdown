@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[SS] System Response"
 date:   2018-03-18 20:11:59
 author: dsaint31

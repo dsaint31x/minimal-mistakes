@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Etc] Windows 10의 1803 update후 chrome이 접속지연에러 문제 해결."
 date:   2018-07-20 20:33:59
 author: dsaint31

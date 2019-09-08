@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "교부 철학 (patristic philosophy)"
 date:   2018-03-23 08:43:59
 author: dsaint31

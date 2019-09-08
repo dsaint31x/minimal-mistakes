@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] 역학 문제풀이"
 date:   2018-04-16 14:33:59
 author: dsaint31

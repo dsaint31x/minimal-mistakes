@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] Centrifugal Force and Artificial Gravity"
 date:   2018-04-02 14:47:59
 author: dsaint31
