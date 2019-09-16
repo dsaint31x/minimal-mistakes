@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] 역학의 발전사 : 뉴턴의 제1운동법칙"
 date:   2018-03-12 14:47:59
 author: dsaint31

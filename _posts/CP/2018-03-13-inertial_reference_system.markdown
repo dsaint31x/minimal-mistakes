@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Physics] Inertial Reference System"
 date:   2018-03-13 12:18:59
 author: dsaint31

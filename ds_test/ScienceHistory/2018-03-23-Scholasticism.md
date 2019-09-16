@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "스콜라 철학"
 date:   2018-03-23 10:43:59
 author: dsaint31

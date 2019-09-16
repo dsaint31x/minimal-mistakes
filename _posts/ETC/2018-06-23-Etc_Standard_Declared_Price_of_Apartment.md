@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Etc] 공동주택 공시지가"
 date:   2018-06-23 14:33:59
 author: dsaint31

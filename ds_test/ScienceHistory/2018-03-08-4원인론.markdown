@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "아리스토텔레스의 4원인론"
 date:   2016-03-18 08:43:59
 author: dsaint31

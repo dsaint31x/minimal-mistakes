@@ -5,6 +5,8 @@ categories:
  - github.io
  - jekyll
  - minimal-mistakes
+ - log4blog
+ - blogging
 use_math: true
 tags: 
  - navigation

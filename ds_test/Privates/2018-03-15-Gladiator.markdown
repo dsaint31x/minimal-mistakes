@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[Etc] 시간의 흐름"
 date:   2018-03-15 12:18:59
 author: dsaint31

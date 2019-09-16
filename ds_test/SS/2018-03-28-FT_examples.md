@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Fourier Transform of Fundamental Signals"
 date:   2018-03-28 09:47:59
 author: dsaint31
