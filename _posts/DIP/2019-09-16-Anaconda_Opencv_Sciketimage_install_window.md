@@ -1,0 +1,84 @@
+---
+title:  "[Anaconda] OpenCV, Scikit image 설치하기 (Windows10)"
+last_modified_at:   2019-09-16
+author: dsaint31
+categories: 
+  - DIP
+  - Phython
+use_math: true
+tags: 
+  - anaconda
+  - windows
+---
+
+# [Anaconda]
+# Anaconda
+
+
+The open-source Anaconda Distribution is the easiest way to perform Python/R data science and machine learning on Linux, Windows, and Mac OS X. With over 11 million users worldwide, it is the industry standard for developing, testing, and training on a single machine, enabling individual data scientists to:
+
+
+* Quickly download 1,500+ Python/R data science packages
+* Manage libraries, dependencies, and environments with Conda
+* Develop and train machine learning and deep learning models with scikit-learn, TensorFlow, and Theano
+* Analyze data with scalability and performance with Dask, NumPy, pandas, and Numba
+* Visualize results with Matplotlib, Bokeh, Datashader, and Holoviews
+
+
+* References
+   * [Anaconda](https://www.anaconda.com)
+   * [Anaconda Cloud](https://anaconda.org/)
+   * Anaconda > [Documentation](https://docs.anaconda.com/anaconda/)
+   * Anaconda > [Anaconda Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf)
+   * [Conda](https://docs.conda.io/projects/conda/en/latest/index.html)
+   * Conda > [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/_downloads/1f5ecf5a87b1c1a8aaf5a7ab8a7a0ff7/conda-cheatsheet.pdf)
+   * Conda > Docs > User guide > [Configuration](https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/index.html)
+
+
+Anaconda의 주요 기능이자 가장 큰 장점은 Python packages 간의 dependency 관리 및 가상환경이다. 뿐만 아니라, NVIDIA GPU를 기반으로 TensorFlow를 사용하기 위해서는 NVIDIA CUDA 관련 도구(CUDA Toolkit, cuDNN 등)가 필요하지만, Anaconda를 통해서 `tensorflow-gpu`를 설치할 경우 필요한 추가도구의 설치와 환경설정을 자동으로 해준다. TensorFlow가 권장하는 Docker는 Linux에서 최적화가 되어 있으므로, Windows 사용자로서는 Anaconda가 최선의 선택이라고 생각한다.
+
+
+## Install Anaconda
+
+
+* Version: Anaconda 2019.07 (Conda 4.7.10)
+
+
+※ Anaconda Prompt를 실행하기 전에 속성에 들어가서 `시작 위치`를 본인의 workspace로 설정하면, Anaconda를 켤 때마다 매번 이동해야 하는 번거로움을 덜 수 있다.
+
+
+> 1. Anaconda 설치 [(Installing on Windows)](https://docs.anaconda.com/anaconda/install/windows/)
+>     * [Anaconda 다운로드](https://www.anaconda.com/distribution/#download-section)에서 OS 및 버전(Python, 32-Bit or 64-Bit 등)을 잘 확인하고 다운로드한 후 설치
+
+
+> 2. Conda 및 root(base) environment의 기본 packages 업데이트
+
+
+```bash
+conda update conda
+conda update --all
+```
+
+
+> 3. Create a new environment for Python 3.7
+
+
+```bash
+conda create -n python3.7 anaconda
+```
+
+
+> 4. Activate the environment
+
+
+```bash
+conda activate python3.7
+```
+
+
+> 5. Install OpenCV and Scikit-image
+
+
+```bash
+conda install opencv
+```
