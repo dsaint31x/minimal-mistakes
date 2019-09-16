@@ -35,7 +35,11 @@ The open-source Anaconda Distribution is the easiest way to perform Python/R dat
     * Docs > User guide > [Configuration](https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/index.html)
 
 
-Anaconda의 주요 기능이자 가장 큰 장점은 Python packages 간의 dependency 관리 및 가상환경이다. 뿐만 아니라, NVIDIA GPU를 기반으로 TensorFlow를 사용하기 위해서는 NVIDIA CUDA 관련 도구(CUDA Toolkit, cuDNN 등)가 필요하지만, Anaconda를 통해서 `tensorflow-gpu`를 설치할 경우 필요한 추가도구의 설치와 환경설정을 자동으로 해준다. TensorFlow가 권장하는 Docker는 Linux에서 최적화가 되어 있으므로, Windows 사용자로서는 Anaconda가 최선의 선택이라고 생각한다.
+Anaconda의 주요 기능이자 가장 큰 장점 
+* Python packages 간의 dependency 관리 
+* Python을 이용한 개발을 위한 가상환경 지원.
+
+> 뿐만 아니라, NVIDIA GPU를 기반으로 TensorFlow를 사용하기 위해서는 NVIDIA CUDA 관련 도구(CUDA Toolkit, cuDNN 등)가 필요하지만, Anaconda를 통해서 `tensorflow-gpu`를 설치할 경우 필요한 추가도구의 설치와 환경설정을 자동으로 해준다. TensorFlow가 권장하는 Docker는 Linux에서 최적화가 되어 있으므로, Windows 사용자로서는 Anaconda가 최선의 선택이라고 생각한다.
 
 
 ## Install Anaconda
@@ -60,11 +64,11 @@ conda update --all
 ```
 
 
-### 3.Create a new environment for Python 3.7
+### 3.Create a new environment for DIP
 
 
 ```bash
-conda create -n python3.7 anaconda
+conda create -n dip python=3.7 anaconda opencv
 ```
 
 
@@ -72,7 +76,7 @@ conda create -n python3.7 anaconda
 
 
 ```bash
-conda activate python3.7
+conda activate dip 
 ```
 
 
@@ -80,5 +84,6 @@ conda activate python3.7
 
 
 ```bash
-conda install opencv scikit-image matplotlib
+#conda install opencv scikit-image matplotlib
+conda install git
 ```
