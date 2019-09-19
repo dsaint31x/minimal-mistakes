@@ -67,7 +67,7 @@ conda update --all
 ### 3.Create a new environment for DIP
 
 필요한 package가 opencv, matplotlib, sickit-image 정도임.
-opencv를 제외하고는 anaconda에서 설치가 되어 있음.
+opencv를 제외하고는 anaconda에서 설치가 되므로 opencv만 지정해준다.
 
 ```bash
 conda create -n dip python=3.7 anaconda opencv
@@ -84,9 +84,8 @@ conda activate dip
 
 ### 5.Install git 
 
-
-현재 anaconda를 설치시 opencv를 제외하고는 다 설치가 되어있음.
-빠진건 `git`정도임.
+`git`을 설치.
+환경 생성시 설치해도 되지만 여기선 따로 설치를 해봄.
 
 ```bash
 #conda install opencv scikit-image matplotlib
