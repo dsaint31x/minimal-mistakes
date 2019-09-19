@@ -32,6 +32,12 @@ Conda의 주요 기능이자 가장 큰 장점
 Linux환경에서 python으로 openCV를 이용시 gtk문제로 인해 cv2.imshow를 사용하지 못하는 경우가 많다.
 이를 막기 위해서는 `conda-forge`를 채널로 지정해서 opencv를 설치해야 한다.
 
+만약 channel설정 없이 설치한 경우, 다음과 같은 에러메시지를 imshow를 할 때 마다 보게 된다.
+
+```
+error: OpenCV(3.4.2) /tmp/build/80754af9/opencv-suite_1535558553474/work/modules/highgui/src/window.cpp:632: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Carbon support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
+```
+
 ### 1.Conda 및 root(base) environment의 기본 packages 업데이트
 
 
