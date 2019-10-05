@@ -30,7 +30,7 @@ $$
 
 * Euclidean norm의 경우 $P$=2임.
 * **norm**은 다음의 조건을 만족함.
-1. $${ \left\| \textbf { a }  \right\|  }_{ P }\ge 0 $ , $ \textbf { a } =\vec{0} $일 경우, $ { \left\| \textbf { a }  \right\|  }_{ P }=0$$.
+1. $${ \left\| \textbf { a }  \right\|  }_{ P }\ge 0$$ , $$\textbf { a } =\vec{0}$$일 경우, $${ \left\| \textbf { a }  \right\|  }_{ P }=0$$.
 2. $${ \left\| c \textbf{a} \right\| }_P = \left\| c \right\| { \left\| \textbf{a} \right\| }_{P}$$. 여기서 c는 상수. (positive homogeniety)
 3. $${ \left\| \textbf { a } +\textbf { b }  \right\|  }_{ P }\le { \left\| \textbf { a }  \right\|  }_{ P }+{ \left\| \textbf { b }  \right\|  }_{ P }$$.
 
@@ -41,7 +41,7 @@ Both the **RMSE** and the **MAE** are *ways to measure **the distance between tw
 
 Various distance measures, or **norms**, are possible:
 
-* l0-norm : $|| \cdot ||_0$
+* l0-norm : $$|| \cdot ||_0$$
   * reqularization : spare weight 
   * NP-hard problem
 * Manhattan norm (l1-norm, MAE, Lasso) : $$|| \cdot ||_1$$
