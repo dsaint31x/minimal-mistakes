@@ -31,7 +31,7 @@ $$
 * Euclidean norm의 경우 $P$=2임.
 * **norm**은 다음의 조건을 만족함.
 1. $${ \left\| \textbf { a }  \right\|  }_{ P }\ge 0$$ , $$\textbf { a } =\vec{0}$$일 경우, $${ \left\| \textbf { a }  \right\|  }_{ P }=0$$.
-2. $${ \left\| c \textbf{a} \right\| }_P = |c| { \left\| \textbf{a} \right\| }_{P}$$. 여기서 c는 상수. (positive homogeniety)
+2. $${ \left\| c \textbf{a} \right\| }_P = \left| c \right| { \left\| \textbf{a} \right\| }_{P}$$. 여기서 c는 상수. (positive homogeniety)
 3. $${ \left\| \textbf { a } +\textbf { b }  \right\|  }_{ P }\le { \left\| \textbf { a }  \right\|  }_{ P }+{ \left\| \textbf { b }  \right\|  }_{ P }$$.
 
 
@@ -41,13 +41,13 @@ Both the **RMSE** and the **MAE** are *ways to measure **the distance between tw
 
 Various distance measures, or **norms**, are possible:
 
-* l0-norm : $$|| \cdot ||_0$$
+* l0-norm : $$\left\| \cdot \right\|_0$$
   * reqularization : spare weight 
   * NP-hard problem
-* Manhattan norm (l1-norm, MAE, Lasso) : $$|| \cdot ||_1$$
+* Manhattan norm (l1-norm, MAE, Lasso) : $$\left\| \cdot \right\|_1$$
   * reqularization : smaller and spare weight 
   * Relaxing L0 norm regularization, because the case of L0 norm is NP hard problem
-* Euclidean norm (l2-norm, RMSE, Ridge, the root of a sum of square) : $$|| \cdot ||_2$$
+* Euclidean norm (l2-norm, RMSE, Ridge, the root of a sum of square) : $$\left\| \cdot \right\|_2$$
   * reqularization : smaller and uniform weight 
   * Equivalent to MAP estimation with Gaussian prior 
 * l*P*-norm
