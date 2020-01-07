@@ -1,0 +1,224 @@
+---
+title:  "[SS] Discrete Time Fourier Series"
+last_modified_at: 2020-01-07
+categories: SS
+use_math: true
+tags: 
+ - DTFS
+ - Fourier
+toc: true
+---
+
+# Discrete Time Fourier Series (DTFS)
+
+--- 
+## Fourier series synthesis equation
+
+$$
+\begin{align}
+x[n] &= \sum ^{N-1} _{k=0} X_k e^{jk\Omega_0 n}
+\end{align}
+$$
+
+where
+* $\Omega_0$ : fundamental angular freq. (rad)
+* $k\Omega_0$ : harmonics (고조파)
+
+## Fourier series analysis equation
+
+$$
+\begin{align}
+X_k &= \frac{1}{N} \sum ^{N-1} _{n=0} x[n] e^{-jk\Omega_0 n}
+\end{align}
+$$
+
+where
+* $X_k$ : fourier series coefficient
+   * $X_k = |X_k| e ^{j\angle{X_k}}$ : It can be represented by **Polar coordinate**.
+
+--- 
+
+## Proof. ( Synthesis eq. $\rightarrow$ Analysis eq.)
+
+sysnthesis equation에서 $k$를 $m$으로 변경.
+
+$$
+x[n] = \sum _{ m=0 }^{ N-1 }{ X_m e^{jm \Omega_0n } }
+$$
+
+양변에 ${ e }^{ -jk{ \Omega  }_{ 0 }n }$를 곱함.
+
+$$
+\begin{align}
+x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n }&=\sum _{ m=0 }^{ N-1 }{ { X }_{ m }{ e }^{ jm{ \Omega  }_{ 0 }n }{ e }^{ -jk{ \Omega  }_{ 0 }n } } \\
+&=\sum _{ m=0 }^{ N-1 }{ { X }_{ m }{ e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n } } \\
+\end{align}
+$$
+
+한 주기 $N$에 대해 총합(한 주기의 총합)을 구함 $\sum _{n=0} ^{N-1}$
+
+$$
+\sum _{ n=0 }^{ N-1 }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } =\sum _{ n=0 }^{ N-1 }{ \sum _{ m=0 }^{ N-1 }{ { X }_{ m }{ e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n } }  } \\
+$$
+
+fourier series coef. $X_m$ 은 $n$에 상관없으므로 다음과 같이 식을 바꿀 수 있음.
+
+$$   
+\sum _{ n=0 }^{ N-1 }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } =\sum _{ m=0 }^{ N-1 }{ { X }_{ m }\left[ \sum _{ n=0 }^{ N-1 }{ { e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n } }  \right]  } \\
+$$
+
+exchange both side.
+
+$$
+\sum _{ m=0 }^{ N-1 }{ { X }_{ m }\left[ \sum _{ n=0 }^{ N-1 }{ { e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n } }  \right]  } =\sum _{ n=0 }^{ N-1 }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } 
+$$
+
+
+${ e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n }$ is orthogonal. 
+
+$$
+\begin{align}
+{ e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n } &= { e }^{ j l { \Omega  }_{ 0 }n }\\
+&= \left\{ 
+\begin{matrix}
+\sum_{n=0}^{N-1} 1 = N, & l=0,\pm N,\pm 2N, \cdots, \\ 
+\frac{1-e^{jl\Omega_0 N}}{1-e^{jl\Omega_0}} = 0, & l \ne 0,\pm N,\pm 2N, \cdots, \\
+\end{matrix}
+\right.
+\end{align}
+$$
+
+> 등비급수의 공식을 참고.
+
+${ e }^{ j\left( m-k \right) { \Omega  }_{ 0 }n }$이 orthogonal인 점을 이용하면 식은 다음과 같이 정리 가능.
+
+$$
+\\ { X }_{ k }N=\sum _{ n=0 }^{ N-1 }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } 
+$$
+
+$N$을 양변에 나누어주면, 다음과 같은 analysis equation이 성립.
+
+$$
+\\ { X }_{ k }=\frac { 1 }{ N } \sum _{ n=0 }^{ N-1 }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } \\
+$$
+
+--- 
+
+## DTFS는 적분 구간이 어디서 시작하는지 상관없이 한 주기의 $N$개의 샘플들을 적분하면 성립.
+
+* $2\pi$ 주기성 성립!!
+
+
+**DTFT's synthesis equation.**
+$$
+x\left[ n \right] =\sum _{ k=<N> }{ { X }_{ k }{ e }^{ jk{ \Omega  }_{ 0 }n } } \\ 
+$$
+
+**DTFT's analysis equation.**
+$$
+{ X }_{ k }=\frac { 1 }{ N } \sum _{ n=<N> }{ x\left[ n \right] { e }^{ -jk{ \Omega  }_{ 0 }n } } \\ \\ 
+$$
+
+--- 
+
+## Duality
+
+| Time domain | |Freq domain |
+|---|---|---|
+|Periodic signal | $\leftrightarrow$ | Discrete spectrum |
+|Discrete signal | $\leftrightarrow$ | Periodic spectrum |
+
+Continuous Time Fourier Series (CTFS)
+* Periodic **Continuse** Signal $\leftrightarrow$ Discrete **Non-periodic** Spectrum
+
+Discrete Time Fourier Series (DTFS)
+* Periodic **Discrete** Signal $\leftrightarrow$ Discrete **Periodic** Spectrum
+
+---
+
+# DTFS의 성질.
+
+DTFS는 다음과 같은 성질들을 가짐.
+
+---
+
+## 1. 주기성.
+
+$$
+x[n+mN] = x[n] \Leftrightarrow X_{k+mN}=X_k
+$$
+
+---
+
+## 2. Time Shift
+
+$$
+x[n-n_0] = X_k \Leftrightarrow e^{-jk\frac{2\pi}/N n_0}
+$$
+
+---
+
+## 3. Time Convolution
+
+$$
+x[n] \circledast y[n] = \displaystyle{ \sum^{N-1}_{m=0}{x[m]y[n-m]}} \Leftrightarrow NX_k Y_k
+$$
+
+---
+
+## 4. Freq. Convolution
+
+$$
+x[n]y[n] \Leftrightarrow \displaystyle{ \sum^{N-1}_{m=0}{X_m Y_{n-m}}} = NX_k \circledast  Y_k
+$$
+
+---
+
+## 5. Parseval's Theorem (파스발의 정리)
+
+$$
+\frac{1}{N} \sum^{N-1}_{n=0}{|x[n]|^2} = \sum^{N-1}_{k=0}{|X_k|^2}
+$$
+* periodic signal의 average power는 한 주기의 각 fourier coef.의 power의 합과 같다.
+* time domain상의 signal의 총 energy는 frequency domain상의 spectrum의 총 energy와 같다.
+* representation의 차이일 뿐, energy는 보존됨.
+
+---
+
+## 6. 대칭성
+
+x[n]은 real number인 경우, 다음 Herimitian symmetry가 성립.
+
+$$
+X_k = X^*_{-k} = X^*_{N-k}
+$$
+
+ Herimitian symmetry의 경우, 다음이 성립.
+
+$$
+X_k = R_k + jI_k \\
+\\
+\left\{ 
+\begin{matrix}
+R_k = R_{-k} \\
+I_k = -I_{-k}
+\end{matrix}
+\right.
+$$
+
+ * real component is even function.
+ * imaginary component is odd function.
+
+
+또한 spectrum에서도 다음의 대칭이 성립함. (Hermitian symmetry이기 때문에)
+$$
+\left\{ 
+\begin{matrix}
+|X_k| = |X_{-k}| \\
+\angle{X_k} = -\angle{X_{-k}}
+\end{matrix}
+\right.
+$$
+
+ * amplitude spectrum is even function.
+ * phase specturm is odd function.
