@@ -2,7 +2,7 @@
 title: "Fourier Series of Halfwave Rectifier using  Python"
 date:   2018-03-29 12:47:59
 author: dsaint31
-categories: Signals_and_Systems
+categories: SS
 use_math: true
 tags: code Fourier
 ---

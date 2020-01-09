@@ -6,11 +6,11 @@ use_math: false
 tags: Anaconda
 toc: true
 ---
-# Anaconda 설치 (3.6.x : linux
+# Anaconda 설치 (3.6.x : linux)
 
 Ref. [https://docs.anaconda.com/anaconda/install/linux](https://docs.anaconda.com/anaconda/install/linux)
 
-#### 1. 본인의 home디렉토리 밑에 setup디렉토리 만들고 설치 파일 다운로드
+## 1. 본인의 home디렉토리 밑에 setup디렉토리 만들고 설치 파일 다운로드
 
 ```
 cd
@@ -22,29 +22,30 @@ cd setup
 * `pwd`로 경로 확인할 것. (present working directory)
 * setup directory새로 생성하고 해당 경로로 이동.
 
-#### 2. Download Anaconda 
+## 2. Download Anaconda 
 * 터미널에서 CLI로 곧바로 다운로드할 수도 있고, 브라우저로 Anaconda 사이트 (https://www.anaconda.com/download/)로 가서 ubuntu용 설치파일을 받고, 받은 파일을 setup폴더로 `mv`시킬 수도 있음.
 
-##### 2.a CLI로 bash에서 다운로드 받기.
+### 2.a CLI로 bash에서 다운로드 받기.
 ```
 curl -O https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
 curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
 ```
-##### 2.b 윈도우에서 다운로드 후 설치. 
+### 2.b 윈도우에서 다운로드 후 설치. 
 * Chrome등의 브라우저를 통해, 특정 디렉토리에 다운로드하고, 터미널에서 아래 명령어를 통해 복사해 옴.
 * 다운로드경로는 실제 경로로 변경해줘야 함.
 ```
 mv [다운로드경로]/Anaconda3-5.0.1-Linux-x86_64.sh ./
 ```
 
-#### 3. 설치 파일에 실행권한을 주고, 실행시켜서 설치 시작
+## 3. 설치 파일에 실행권한을 주고, 실행시켜서 설치 시작
 * 실행권한 주고 셀 수행해서 설치 시작
 ```
 chmod 777 Anaconda3-5.0.1-Linux-x86_64.sh
 ./Anaconda3-5.0.1-Linux-x86_64.sh
 ```
 
-#### 4. 설치
+## 4. 설치
+* 다음은 설치 과정의 출력을 보여줌.
 ```
 Welcome to Anaconda3 5.0.1
 
@@ -104,15 +105,14 @@ kge9595@LAPTOP-2GD1K4I2:~/setup$
 * 라이센스 조건에 동의하냐는 물음에 yes라 답할 것.
 * installer가 Anaconda3 프로그램을 주어진 PATH에 설치해도 되냐는 물음에 yes라 답할 것.(no라고 대답할 시, path를 지정해줘야함)
 
-#### 5. TensorFlow를 위한 conda environment 생성.
+## 5. TensorFlow를 위한 conda environment 생성.
 	
+* 다음과 같이 python 버전을 확인한 후에, tensorflow를 위한 환경에서 사용할 python=X.X 라고 입력해 줄 것 (minor version까지만 맞춰주면됨.
 ```	
 kge9595@LAPTOP-2GD1K4I2:~/setup$python --version
 Python 3.6.3 : : Anaconda, Inc .
 kge9595@LAPTOP-2GD1K4I2:~/setup$conda create -n tensorflow python=3.6
 ```
-* python 버전을 확인한 후에 python=X.X 라고 입력해 줄 것 (minor version까지만 맞춰주면됨.
-
 * Anaconda 설치 시의 Python 버전과 맞출 필요는 없음. 생성하는 환경(위 예제의 경우 tensorflow라는 이름의 환경)에 설치하고 싶은 Python 버전을 입력하면 됨.
 	* 2018.01.08(현재) TensorFlow r1.4와 가장 호환성이 높은 Python 버전은 Python 3.5이므로 다음을 입력할 것.
 	* ```
