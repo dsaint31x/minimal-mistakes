@@ -20,6 +20,7 @@ tags:
 * **정의역(domain)**이 $\text{R}^n$ 이면서 **공역(codomain)**이 $\text{R}^n$ 인 경우, ***vector field***.
 
 > Scalar function은 **codomain**이 $\text{R}$인 경우임.
+>
 > 1변수 scalar function 은 **정의역(domain)**이  $\text{R}$ 인 경우이고, 2변수 scalar function은 $\text{R}^n$ 인 경우
 
 ![vector_field](https://docs.google.com/drawings/d/e/2PACX-1vStcPIxshykUa8wVnH16my8PmF8xri8jQF3vsxAMc8p5aFziz5bxAvgPKaBBCdSYwRTRcthB_85cqr9/pub?w=721&h=258)
@@ -39,7 +40,7 @@ $$
 ## Gradient (구배, 기울기, 경사, 경도), $ \nabla f $
 
 * scalar field로부터 vector field를 얻어냄.
-* scalar field의 각각의 위치에서 **해당 scalar field가 가장 빠르게 증가하는 *방향*과 그 *기울기* **를 나타내는 **vector field**를 구함.(gradient에 -1을 곱하면, 가장 빠르게 감소하는 방향을 가르키게 됨)
+* scalar field의 각각의 위치에서 **해당 scalar field가 가장 빠르게 증가하는 _방향_과 그 _기울기_** 를 나타내는 **vector field**를 구함.(gradient에 -1을 곱하면, 가장 빠르게 감소하는 방향을 가르키게 됨)
 *  scalar function이 $f$가 3변수 함수,$f(x,y,z)$라고 할 때, 해당 함수의 gradient vector field는 다음과 같음.
 
 $$
@@ -74,10 +75,11 @@ $$
 ![divergence](https://docs.google.com/drawings/d/e/2PACX-1vQqYeO-Aogo6QoX0iTLcRjmu7acMCHkT_n6PyRnZtOgDL6ayIV2PSZeB2AUGMDC9tCp3zEB6H62OtxR/pub?w=669&h=315)
 
 > Electric field : charge를 띤 물체(관찰대상)가 공간상의 어느 점 P에 있는 시험전하에 가해주는 **단위전하량 당 전기력**
+>
 > 위의 예에선  point charge 및 infinite parallel plate capacitor가 charge를 띤 물체에 해당하며
 > Divergence가 구해진 위치는 point charge들의 경우는 point charge가 있는 곳에 해당하고 parallel plate capacitor의 경우엔 두 판의 사이 어딘가라고 생각하면 됨.
 
-### Curl (or rotation, volticity), $ \nabla \times \vec{v}(t) $
+## Curl (or rotation, volticity), $ \nabla \times \vec{v}(t) $
 
 * $\nabla$와 vector field $\vec{v}(t)$의 vector product(or cross product).
 	* vector product이므로 당연히 결과는 vector!!
@@ -97,7 +99,7 @@ $$
  **Curl**
  ![curl](https://docs.google.com/drawings/d/e/2PACX-1vQzI1tW1-7tJNL-VN2GIF_SvaeRsN4VoqXKnMv4QpRFzEGsUa61tC0ZUiwYhiAYKJPxAhb9uhzTWpCK/pub?w=435&h=464)
 
-### Laplacian (Scalar), $\nabla ^2 f$
+## Laplacian (Scalar), $\nabla ^2 f$
 
 * Laplacian의 뜻은 "Laplace로부터 나옴"임. (-ian = -로부터 유래)
 * Laplace Operator라고도 불림.
@@ -114,19 +116,19 @@ $$
 
 * scalar 에 대한 Laplacian은 gradient에 divergence를 구한것.
 
-### Laplacian (Vector), $\nabla ^2 \vec{v} $
+## Laplacian (Vector), $\nabla ^2 \vec{v} $
 
 $$
 \nabla ^2 \vec{v} = \nabla ( \nabla  \cdot \vec{v}) - \nabla \times (\nabla \times \vec{v})
 $$
 
-### Summary of Vector Operations 
+## Summary of Vector Operations 
 
 ![vec_op](https://docs.google.com/drawings/d/e/2PACX-1vQXp6XFvYVJEo_A90Q-O_uOCI6_Xfft7cZ-FquxjVsrLFSrp1WJcnbtlr5aPF3vrJK-kFfPhB7vIEvI/pub?w=953&h=611)
 
 ----------
 
-### The Curl (or Rot) of Gradient
+## The Curl (or Rot) of Gradient
 
 * Potential Energy를 $U$라고 하자.
 * 여기서 $U$는 $U=U(x,y,z)$라고 표현되는 scalar function이다.. (중력에 의한 위치에너지 생각할 것)
@@ -153,14 +155,15 @@ $$
 
 즉, **어떤 scalar function에 대한 gradient의 curl은 항상 0임**.
 
-#### Note1
+## Note1
 > **참고 : Conservative Force(보존력)**
+>
 > Conservative Force, $F$인 경우, 다음 두가지 조건을 반드시 만족해야 함.
 > * $F = - \nabla U$ 
 > * $\nabla \times F = 0$
 >
 > Conservative Force로는 중력, 탄성력, 전기력 등이 있으며,
-> 물체에 Conservative Force만 작용하면 **역학적에너지 보존**이 성립함.
+> 물체에 Conservative Force만 작용하면 **역학적 에너지 보존**이 성립함.
 >
 > **Conservative Force 정의**는 다음과 같음. 
 > * 물체에 가해진 힘으로 해당 물체의 위치가 변화될 때, 
@@ -171,9 +174,9 @@ $$
 >위의 수학적 표현
 > * Conservative Force의 변위에 대한 선적분(line integral)이 **경로 독립** $\rightarrow$ 경로가 폐곡선일시 경로에 대한 적분의 값은 항상 0
 > 
-> 보존력이 아닌 경우, 일을 하게 되면 그 일부가 열에너지 등으로 변환되어 **역학적에너지 보존** 이 성립하지 않음 (단, 일에서 비보존력이 수직방향으로 가해진 경우는 역학적에너지 보존법칙이 성립 ).
+> 보존력이 아닌 경우, 일을 하게 되면 그 일부가 열에너지 등으로 변환되어 **역학적 에너지 보존** 이 성립하지 않음 (단, 일에서 비보존력이 수직방향으로 가해진 경우는 역학적에너지 보존법칙이 성립 ).
 
-#### Note2
+## Note2
 > 다음의 Line Integral이 경로독립일 조건 (아래 조건 1,2,3 모두 같은 애기를 하는 것임.)
 >  $$ \int_{C} \vec{F}(\vec{r}) \cdot d\vec{r} = \int_{C} \left( F_x dx + F_y dy + F_z dz \right)$$
 > 
@@ -185,7 +188,7 @@ $$
 >   
 > 3. 만약 $\nabla \times \vec{F} =0$을 만족하게 되는 경우 line integral은 경로 독립임.(2번에서 스토크스 정리를 사용하여 유도)
 
-### The Divergence of Curl
+## The Divergence of Curl
 
 * Vector field의 curl (회전)을 구하면 다음과 같음.
 
