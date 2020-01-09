@@ -1,5 +1,5 @@
 ---
-title:  "[linux] conver sqlite into ER diagram"
+title:  "[linux] convert sqlite into ER diagram"
 last_modified_at:   2020-01-01
 author: dsaint31
 categories: 
@@ -9,7 +9,7 @@ tags:
   - linux 
 ---
 
-# How to conver sqlite into ER diagram. 
+# How to convert sqlite into ER diagram. 
 
 ## Install SchemaCrawler
 
