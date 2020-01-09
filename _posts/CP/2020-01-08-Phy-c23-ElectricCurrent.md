@@ -3,7 +3,7 @@ title:  "[Physics] Electric current "
 author: dsaint31
 last_modified_at:   2020-01-08 15:33:59
 categories: 
-  - physics
+  - Physics
 use_math: true
 tags: 
   - current 
