@@ -9,7 +9,7 @@ tags:
 ---
 
 # [Physics] Physics Syllabus
-@(Physics)[syllabus, 2019, 의학물리, physics]
+@(Physics)[syllabus|2020|의학물리|physics]
 
 ## 관련정보
 
