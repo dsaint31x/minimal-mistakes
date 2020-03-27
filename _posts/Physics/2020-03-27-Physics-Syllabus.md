@@ -1,10 +1,11 @@
 ---
-layout: post
 title:  "강의계획서: 의학물리 2020"
-date:   2020-03-27 14:47:59
+last_modified_ate:   2020-03-27 14:47:59
 author: dsaint31
-categories: Physics
-tags: syllabus
+categories: 
+  - Physics
+tags: 
+  - syllabus
 ---
 
 # [Physics] Physics Syllabus
