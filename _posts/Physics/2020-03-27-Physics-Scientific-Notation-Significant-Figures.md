@@ -2,6 +2,7 @@
 title:  "과학적표기법 과 유효숫자"
 last_modified_ate:   2020-03-27 14:47:59
 author: dsaint31
+use_math: true
 categories: 
   - Physics
 tags: 
