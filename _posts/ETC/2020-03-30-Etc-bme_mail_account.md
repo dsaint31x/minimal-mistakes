@@ -19,11 +19,11 @@ tags:
 * 해당 계정은 google의 drive등에 대한 제한이 없이 사용가능함.
 * 아래 링크의 지시사항에 따를 것.
 
-https://bit.ly/3avmuBV
+[간단 메뉴얼](https://bit.ly/3avmuBV)
 
 ## 구글 클래스룸 관련 메뉴얼
 
 * 구글 클래스룸으로 진행되는 강의 가 일부 존재
 * 다음은 구글이 제공하는 classroom.google.com 의 학생으로서의 사용법임.
 
-https://bit.ly/2UhHqqy
+[공식 도움말](https://bit.ly/2UhHqqy)
