@@ -1,5 +1,5 @@
 ---
-title:  "강의계획서: 생체신호처리 2019"
+title:  "강의계획서: 생체신호처리"
 last_modified_at:   2020-02-26 14:47:59
 author: dsaint31
 categories: 
@@ -43,11 +43,11 @@ tags:
 #### 과제 작성법
 
 * < 10 pages (A4, 2columns, 10pt)
-* 과제 제출후 1주일 후 수업시간 전까지
+* 과제 제출시점에서 1주일 후 수업시간 전까지
 *  latex 등 을 이용한 전자문서 제출 가산점 있음 ( 해당 과제 총점의 10% ) 
 *  Google classroom으로 제출
    * 첨부파일 : 스캔 파일(pdf) or word or google docs
-   * 첨부파일명 : **Biosignal_20200304_973037_김행근_~~~**
+   * 첨부파일명 : `Biosignal_20200304_973037_김행근_~~~`
 * 본인의 bme.gachon.ac.kr 계정을 통해 메일 보낼 것! 
 
 ## Required Textbooks
