@@ -3,7 +3,7 @@ title:  "강의계획서: 생체신호처리"
 last_modified_at:   2020-02-26 14:47:59
 author: dsaint31
 categories: 
-  - Signals_and_Systems
+  - SS
 tags: 
   - syllabus
 ---
