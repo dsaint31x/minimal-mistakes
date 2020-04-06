@@ -3,7 +3,7 @@ title:  “[SS] 1장 연습문제 풀이.”
 last_modified_at:   2019-03-10
 author: dsaint31
 categories: 
-  - Signals_and_Systems
+  - SS
 use_math: true
 tags: 
   - periodic
