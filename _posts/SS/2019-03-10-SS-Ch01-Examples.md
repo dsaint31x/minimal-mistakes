@@ -1,4 +1,4 @@
-—
+---
 title:  “[SS] 1장 연습문제 풀이.”
 last_modified_at:   2019-03-10
 author: dsaint31
@@ -7,7 +7,7 @@ categories:
 use_math: true
 tags: 
   - periodic
-—
+---
 
 # [SS] Ch01 Examples : 신호의 주기성 등등
 
