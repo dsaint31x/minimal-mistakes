@@ -59,13 +59,13 @@ $$
 \frac{1}{\left ( v(t)-\frac{mg}{k}\right)}\frac{dv(t)}{dt} &= -\frac{k}{m} \\
 \frac{1}{\left ( v(t)-\frac{mg}{k}\right)} dv(t) &= -\frac{k}{m}dt \\
 \int \frac{1}{\left ( v(t)-\frac{mg}{k}\right)} dv(t) &= \int -\frac{k}{m}dt \\
-\ln \left | v(t)-\frac{mg}{k} \right | &= - \frac{k}{m} +C
+\ln \left | v(t)-\frac{mg}{k} \right | &= - \frac{k}{m}t +C
 \end{align*}
 $$
 
-빗방울의 속도는 terminal velocity로 수렴하므로 $mg-kv \ge 0$이므로, 다음이 성립.
+빗방울의 속도는 terminal velocity로 수렴하므로 $mg-kv \ge 0$임. 때문에, 다음이 성립.
 
-$$\ln \left | v(t)-\frac{mg}{k} \right | = \ln \left ( -v(t)+\frac{mg}{k}t \right ) $$
+$$\ln \left | v(t)-\frac{mg}{k} \right | = \ln \left ( -v(t)+\frac{mg}{k} \right ) $$
 
 즉, 속도 $v(t)$는 다음과 같음.
 
@@ -76,7 +76,9 @@ $$
 v(t) &= \frac{mg}{k}-e^{- \frac{k}{m} t}e^C
 \end{align*}$$
 
-초기조건인 $t=0$일때 속도는 0, $v(0)=0$을 이용하여 integral constant $C$, 정확히는 $e^C$를 구함.
+초기조건인 $t=0$일때 속도는 0, 즉 $v(0)=0$임.
+
+이를 이용하여 integral constant $C$, 정확히는 $e^C$를 구함.
 
 $$
 \begin{align*} 
@@ -97,7 +99,7 @@ v(t) &= \frac{mg}{k}-e^{- \frac{k}{m} t}e^C \\
 \quad &=\frac{mg}{k} \left (1- e^{-\frac{k}{m} t} \right ) 
 \end{align*}$$
 
-Terminal velocity는 $t$를 무한대로 취하여 위식에 대입하면 구할 수 있음.
+$t$를 무한대로 취하여 위식에 대입하면 **Terminal velocity**를 구할 수 있음.
 
 $$
 \begin{align*} 
