@@ -13,6 +13,7 @@ tags:
 ---
 
 # [Math] Vector (1)
+
 @(Mathematics)[physics, vector]
 
 ### scalar
