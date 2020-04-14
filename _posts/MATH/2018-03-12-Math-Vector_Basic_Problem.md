@@ -1,6 +1,6 @@
 ---
 title:  "[Math] Vector 기초 문제"
-date:   2019-03-12 13:33:59
+date:   2018-03-12 13:33:59
 author: dsaint31
 categories: Mathematics
 use_math: true
