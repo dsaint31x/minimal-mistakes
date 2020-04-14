@@ -161,7 +161,9 @@ $$
 	* $t$가 감소할 때 곡선의 방향이 negative direction.
 
 * 3차원 공간에서 직선의 방정식
-
+  * 점 $$ q=\left< q_x, q_y,q_z \right> $$ (=position vector)를 지나고 
+  * constant vector $$g=\left< g_x, g_y,g_z \right>$$의 방향으로 진행하는 직선
+  
 $$ 
 \begin{align*}
 \vec{v} &= \vec{q}+\vec{g}t \\
@@ -171,8 +173,6 @@ $$
 $$ 
 
 
-  * 점 $$ q=\left< q_x, q_y,q_z \right> $$ (=position vector)를 지나고 
-  * constant vector $$g=\left< g_x, g_y,g_z \right>$$의 방향으로 진행하는 직선
 
 * x-y 평면에서 타원 혹은 원의 방정식
 
