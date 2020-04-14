@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터 함수"
-last_modified_at:   2019-02-11
+last_modified_at:   2018-03-13
 author: dsaint31
 categories: 
   - Mathematics
