@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터함수 (간단예제 및 답)"
-last_modified_at:   2019-02-25
+last_modified_at:   2018-03-16
 author: dsaint31
 categories: 
   - Mathematics
@@ -11,39 +11,52 @@ tags:
 ---
 
 # [Math] Vector (2) : Vector Function : ex
-@(Mathematics)[physics, vector, mathematics, Mathematics]
 
-### Problem 1. 
+@(Mathematics)[physics, vector, mathematics]
+
+## Problem 1. 
 
 공간에서 움직이는 물체의 position vector $\vec{r}(t)$가 시간 $t$에 대해 다음과 같다.
-$$\vec{r}(t)=\left< e^t, \cos{t}, t^3\right>$$
+
+$$
+\begin{aligh*}
+\vec{r}(t)=\left< e^t, \cos{t}, t^3\right>
+\end{aligh*}
+$$
 
 다음을 구하시오
+
 1. velocity
 
-	sol. 
-	
-	**velocity**$= \vec{r} \prime = \left< e^t, -\sin{t}, 3t^2\right>$
+> **sol.** 
+>	
+>	  **velocity**$= \vec{r}' = \left< e^t, -\sin{t}, 3t^2\right>$
 	
 2. speed
 
-	sol. 
-	
-	**speed**$=\left\| \vec{r} \prime\right\|_2 = \sqrt{ e^{2t} + (-\sin{t})^2 + (3t^2)^2 }  = \sqrt{ e^{2t} + \sin^2{t} + 9t^4 }$
+> **sol.** 
+> 
+>   **speed**$=\left\| \vec{r}'\right\|_2 = \sqrt{ e^{2t} + (-\sin{t})^2 + (3t^2)^2 }  = \sqrt{ e^{2t} + \sin^2{t} + 9t^4 }$
 	
 3. acceleration
 
-	sol. 
-	
-	**acceleration**$=\left< e^t, -\cos{t}, 6t\right>$  
+> **sol.** 
+> 
+>   **acceleration**$=\left< e^t, -\cos{t}, 6t\right>$  
 
 ---
 
-### Problem 2. 
+## Problem 2. 
 
 공간에서 움직이는 물체의 $t=0$에서 position vector와 velocity가 다음과 같다.
 
-$$ \vec{r}(0)=\left< 0,1,0\right> , \quad \vec{v}(0)=\left < 2,1,0 \right> $$
+$$ 
+\begin{aligh*}
+\vec{r}(0)&=\left< 0,1,0\right>\\
+\vec{v}(0)&=\left < 2,1,0 \right> 
+\end{aligh*}
+$$
+
 
 해당 물체의 가속도가 $\left< 2t,3t^2, 1\right>$일 경우, 시간 $t$에서의 다음을 구하시오.
 
@@ -84,13 +97,16 @@ $$ \vec{r}(0)=\left< 0,1,0\right> , \quad \vec{v}(0)=\left < 2,1,0 \right> $$
 다음의 vector function이 있다고 하자.
 
 $$
+\begin{aligh*}
 \vec{v}(t) = \left< t, \cos{t}, \sin{t}\right>
+\end{align*}
 $$
 
 해당 vector function에 대한 다음을 구하시오.
 
 1. unit tangent vector
 
+  **sol.**
 	$$
 	\begin{align*}
 	\vec{T}(t) &= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\left\| \left< 1,-\sin{t},\cos{t}\right>\right\|_2} \\
@@ -100,9 +116,11 @@ $$
 	
 2. unit normal vector
 
+
+  **sol.**
 	$$
 	\begin{align*}
-	\vec{N}(t) &= \frac{\vec{T}\prime}{\left\| \vec{T} \prime \right\|_2}\\
+	\vec{N}(t) &= \frac{\vec{T}'}{\left\| \vec{T}' \right\|_2}\\
 	&=\frac{
 	\frac{ \left< 0,-\cos{t},-\sin{t}\right>} {\sqrt{2}}
 	}{ \left\|
@@ -116,6 +134,9 @@ $$
 ### Problem 4. 
 
 3차원상에서  위치벡터 $\vec{r}=<x,y,z>$와 원점으로부터 거리를 나타내는 Scalar field $f(\vec{r})$을 구하라.
+
+
+**sol.**
 
 $$
 \begin{align*}
@@ -132,7 +153,7 @@ $$
 $$
 \begin{align*}
 & \vec{f}(t) = \vec{a}(t) \cdot \vec{b}(t)\\
-& where \\
+\text{where}& \\
 & \vec{a}(t) = 2t^2\vec{i}+3\cos t\vec{j}+e^t \vec{k} \\
 & \vec{b}(t) = <t \sin t, t \cos t, t>
 \end{align*}
