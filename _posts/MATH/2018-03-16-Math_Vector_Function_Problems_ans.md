@@ -26,19 +26,19 @@ $$
 
 다음을 구하시오
 
-1. velocity
+1.velocity
 
-> **sol.** 
+> **sol.**  
 >	
 >	  **velocity**$=\vec{r}'=\left< e^t, -\sin{t}, 3t^2\right>$
 	
-2. speed
+2.speed
 
 > **sol.** 
 > 
 >   **speed**$=\left\| \vec{r}'\right\|_2 = \sqrt{ e^{2t} + (-\sin{t})^2 + (3t^2)^2 }  = \sqrt{ e^{2t} + \sin^2{t} + 9t^4 }$
 	
-3. acceleration
+3.acceleration
 
 > **sol.** 
 > 
@@ -51,20 +51,20 @@ $$
 공간에서 움직이는 물체의 $t=0$에서 position vector와 velocity가 다음과 같다.
 
 $$ 
-\begin{aligh*}
+\begin{align*}
 \vec{r}(0)&=\left< 0,1,0\right>\\
 \vec{v}(0)&=\left < 2,1,0 \right> 
-\end{aligh*}
+\end{align*}
 $$
 
 
 해당 물체의 가속도가 $\left< 2t,3t^2, 1\right>$일 경우, 시간 $t$에서의 다음을 구하시오.
 
-1. velocity
+1.velocity
 
 > **sol.**
 >
->	$$
+> $$
 	\begin{align*}
 	\vec{v}(t) &= \int_0^t \vec{a}(\tau)d \tau \\
 	&= \left< \int_0^t 2\tau d \tau, \int_0^t 3\tau^2 d \tau , \int_0^t 1 d \tau\right>\\
@@ -77,7 +77,7 @@ $$
 	\end{align*}
 	$$
 	
-2. position vector
+2.position vector
 
 > **sol.**
 >
@@ -108,18 +108,18 @@ $$
 
 해당 vector function에 대한 다음을 구하시오.
 
-1. unit tangent vector
+1.unit tangent vector
 
 > **sol.**
 > 
->	$$
+> $$
 	\begin{align*}
 	\vec{T}(t) &= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\left\| \left< 1,-\sin{t},\cos{t}\right>\right\|_2} \\
 	&= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\sqrt{2}}
 	\end{align*}
 	$$
 	
-2. unit normal vector
+2.unit normal vector
 
 > **sol.**
 > 
