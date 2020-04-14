@@ -23,7 +23,10 @@ tags:
 
 * 크기와 방향을 가지는 물리량.
 * 다음 식은 3개의 component를 가지는 vector임.
-* $$ \vec { a } =\left< { a }_{ 1 },{ a }_{ 2 },{ a }_{ 3 } \right> $$
+
+$$ 
+\vec { a } =\left< { a }_{ 1 },{ a }_{ 2 },{ a }_{ 3 } \right> 
+$$
 
 ### zero vector
 
@@ -37,13 +40,17 @@ tags:
 
 * vector의 length 혹은 magnitude로 불림.
 * 3차원 공간에서 Euclidean Norm은 다음과 같이 정의됨.
+
 $$ 
 \left\| \vec { a }  \right\| ={ \left\| \vec { a }  \right\|  }_{ 2 }={ \left( { a }_{ 1 }^{ 2 }+{ a }_{ 2 }^{ 2 }+{ a }_{ 3 }^{ 2 } \right)  }^{ \frac { 1 }{ 2 }  } 
 $$
+
 * 일반화된 P-norm은 다음과 같음.
+
 $$ 
 { \left\| \vec { a }  \right\|  }_{ P }=\left\{ \sum _{ i=1 }^{ n }{ { \left| { a }_{ i } \right|  }^{ P } }  \right\} ^{ \frac { 1 }{ P }  }
 $$
+
 * Euclidean norm의 경우 $P$=2임.
 * **norm**은 다음의 조건을 만족함.
 1. $$ { \left\| \vec { a }  \right\|  }_{ P }\ge 0 $$ , $$ \vec { a } =\vec{0} $$일 경우, $$ { \left\| \vec { a }  \right\|  }_{ P }=0 $$.
@@ -69,13 +76,15 @@ $$
 $$
 
 * 합과 차, 상수배
+
 $$\begin {align*}
   \vec { a } +\vec { b } &= \left< { a }_{ 1 }+{ b }_{ 1 },{ a }_{ 2 }+{ b }_{ 3 },{ a }_{ 3 }+{ b }_{ 3 } \right> \\ 
   \vec { a } -\vec { b } &= \left< { a }_{ 1 }-{ b }_{ 1 },{ a }_{ 2 }-{ b }_{ 3 },{ a }_{ 3 }-{ b }_{ 3 } \right> \\
   c\vec{a}&=\left<ca_1, ca_2, ca_3\right>, c \text{ is constant.}
 	\end {align*}
 $$
-* ![inner product](https://3.bp.blogspot.com/-tG6hZGxCTSE/Vz10hcnO7cI/AAAAAAAA_Yw/r2MXMoZW45ItjESLc2JjRFlVW6EU8vHOACLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
+
+![inner product|center](https://3.bp.blogspot.com/-tG6hZGxCTSE/Vz10hcnO7cI/AAAAAAAA_Yw/r2MXMoZW45ItjESLc2JjRFlVW6EU8vHOACLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
 
 ### Unit vector
 
@@ -84,6 +93,7 @@ $$
 ### normalization
 
 * 방향은 유지하되 norm인 1인 unit vector로 만드는 것
+
 $$ 
 \frac{1}{\left\| \vec { a }  \right\| }\vec { a }
 $$
@@ -91,17 +101,20 @@ $$
 ### dot product (or **inner product** or **scalar product**)
 
 * 내적이라고 불리는 연산으로 다음과 같이 정의되며, 결과가 **scalar** 임.
+
 $$ 
   \begin{align*}
 	\vec { a } \cdot \vec { b } &=|| \vec { a } || || \vec { b } | | \cos { \theta  } \\
 		\quad & = { a }_{ 1 }{ b }_{ 1 }+{ a }_{ 2 }{ b }_{ 2 }{ +a }_{ 3 }{ b }_{ 3 }
   \end{align*}
 $$
+
 * 두 vector 사이의 각을 구하는데 많이 이용됨.
 
 ### cross product (**exterior product** or **vector product**)
 
 * 외적이라고 불리는 연산으로 다음과 같이 정의되며, 결과가 **vector** 임.
+
 $$ 
 \begin {align*}
 \vec { a } \times \vec { b } &=\left( { \left\| \vec { a }  \right\|  }\left\| \vec { b }  \right\| \sin { \theta  }  \right) \vec { n }  \\
@@ -110,6 +123,7 @@ $$
 \quad &= \vec{i}(a_2b_3-a3b_2)+\vec{j}(a_3b_1-a_1b_3)+\vec{k}(a_1b_2-a_2b_1)
 \end {align*}
 $$
+
 * 여기서 $$\vec { n } $$은 unit normal vector이며 right hand law에 따른 방향을 가지며 $$\vec { a }$$와 $$\vec { b }$$에 수직임.
 * ![cross product](https://1.bp.blogspot.com/-KJyzoQwAA38/Vz1rgG8j84I/AAAAAAAA_YQ/xBdCWujvxyw7iskp6-ZLYWGK-PLpLyjBwCLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
 * ![right-handed triple](https://docs.google.com/drawings/d/e/2PACX-1vSXFVDjIDf8_78UNcoFOzNeda_8RJrUrOtYJ2jEZ4NCI-MiEwh7a_PObtDLwltOZNYvBCauQwDh8EPE/pub?w=555&h=191)
@@ -119,11 +133,14 @@ $$
 * $$ \vec { a } \neq \vec { 0 }$$ 와 $$\vec { b } \neq \vec { 0 } $$가 성립하면서 $$ \vec { a }$$와 $$ \vec { b }$$의 **inner product**가 0일 경우, 이 **두 벡터는 직교한다(orthogonal)** 라고 함.
 
 ----
+
 ### Cartesian Coordinate System(or Rectangular Coordinate System)에서 Vector표현.
 
 벡터 v를 다음과 같은 직교좌표계에서 나타낼 경우, $\text{i}$,$\text{j}$,$\text{k}$라는 x축, y축, z축의 **positive direction**을 방향으로 하는 **base unit vector**를 이용하여 표현. 
 
-$$ \vec{v} = a \vec{i} + b\vec{j} +c\vec{k} $$
+$$ 
+\vec{v} = a \vec{i} + b\vec{j} +c\vec{k} 
+$$
 
 ![Vector of Cartesian Coordinate](https://docs.google.com/drawings/d/e/2PACX-1vR32QklmhWb9eKuRBaDs5ZoeJ0z2VuxEavTUOK6vMw8h03YdrwyNRjiSnleyDONDq_RfuAG0Ly5ytDn/pub?w=406&h=257)
 * base unit vector : 기저 단위 벡터
@@ -135,10 +152,10 @@ $$ \vec{v} = a \vec{i} + b\vec{j} +c\vec{k} $$
 	* $$\alpha$$ is the angle b/w $$\vec{v}$$ and the positive x-axis ($$0 \le \alpha \le \pi$$)
 	* $$\beta$$ is the angle b/w $$\vec{v}$$ and the positive y-axis ($$0 \le \beta \le \pi$$)
 	* $$\gamma$$ is the angle b/w $$\vec{v}$$ and the positive z-axis ($$0 \le \gamma \le \pi$$)
-* $$\vec{v}$$의 directional cosines $$\lambda, \mu, \nu$$ 는 다음과 같이 정의됨.
+* $\vec{v}$의 directional cosines $\lambda, \mu, \nu$ 는 다음과 같이 정의됨.
 	* $$\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$$
-	* $$\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$
-	* $$\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$
+	* $$\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$$
+	* $$\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$$
 
 다음이 성립함.
 
