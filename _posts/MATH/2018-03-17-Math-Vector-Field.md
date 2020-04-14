@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터장과 벡터연산"
-last_modified_at:   2019-02-12
+last_modified_at:   2018-03-17
 author: dsaint31
 categories: 
   - Mathematics
