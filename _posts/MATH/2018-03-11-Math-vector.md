@@ -164,9 +164,9 @@ $$
 	* $$\beta$$ is the angle b/w $$\vec{v}$$ and the positive y-axis ($$0 \le \beta \le \pi$$)
 	* $$\gamma$$ is the angle b/w $$\vec{v}$$ and the positive z-axis ($$0 \le \gamma \le \pi$$)
 * $\vec{v}$의 directional cosines $\lambda, \mu, \nu$ 는 다음과 같이 정의됨.
-	* $$\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$$.
-	* $$\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$$.
-	* $$\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$$.
+	* $$\lambda = \cos{\alpha} = \frac{a}{\left\|\vec{v}\right\|}$$.
+	* $$\mu = \cos{\beta} = \frac{b}{\left\|\vec{v}\right\|}$$.
+	* $$\nu = \cos{\gamma} = \frac{c}{\left\|\vec{v}\right\|}$$.
 
 다음이 성립함.
 
