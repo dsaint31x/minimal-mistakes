@@ -174,7 +174,7 @@ $$
 \begin{align*}
 \left\|\vec {v}\right\|_2 = A = |\vec {v}| &= \sqrt{a^2+b^2+c^2}\\
 &=A\sqrt{\lambda^2+\mu^2+\nu^2} \\
-&\therefore \sqrt{\lambda^2+\mu^2+\nu^2} = 1
+\therefore \sqrt{\lambda^2+\mu^2+\nu^2} &= 1
 \end{align*}
 $$
 
