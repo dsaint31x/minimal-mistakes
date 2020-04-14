@@ -30,7 +30,7 @@ $$
 
 > **sol.**  
 >	
->	  **velocity**$=\vec{r}'=\left< e^t, -\sin{t}, 3t^2\right>$
+>   **velocity**$=\vec{r}'=\left< e^t, -\sin{t}, 3t^2\right>$
 	
 2.speed
 
