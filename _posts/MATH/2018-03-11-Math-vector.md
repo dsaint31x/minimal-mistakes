@@ -5,7 +5,7 @@ author: dsaint31
 categories: 
   - Mathematics
   - Physics
-use_math: True
+use_math: true
 tags: 
   - math 
   - physics
