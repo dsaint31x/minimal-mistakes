@@ -166,11 +166,12 @@ $$
 \begin{align*}
 \vec{v} &= \vec{q}+\vec{g}t \\
 &= v(t) \\
-&= \left< q_x+g_xt, q_y+g_yt,q_z+g_zt \right>
+&= \left< q_x+g_x t, q_y+g_y t,q_z+g_z t \right>
 \end{align*}
 $$ 
 
-	* 점 $$q=\left< q_x, q_y,q_z \right>$$(=position vector)를 지나고 
+
+  * 점 $$ q=\left< q_x, q_y,q_z \right> $$ (=position vector)를 지나고 
   * constant vector $$g=\left< g_x, g_y,g_z \right>$$의 방향으로 진행하는 직선
 
 * x-y 평면에서 타원 혹은 원의 방정식
@@ -225,8 +226,8 @@ Position vector $\vec{r}(t)$에 대한 velocity vector $\vec{v}(t)$와 accelerat
 
 $$
 \begin{align*}
-\vec{v}(t) &= \displaystyle{lim_{\Delta t\rightarrow 0} \frac { \vec{r}(t+\Delta t) - \vec{r}(t)}{\Delta t}} =\vec{r}'(t)\\
-\vec{a}(t) &= \displaystyle{lim_{\Delta t\rightarrow 0} \frac { \vec{v}(t+\Delta t) - \vec{v}(t)}{\Delta t}} =\vec{v}'(t) =\vec{r}''(t) \\
+\vec{v}(t) &= \displaystyle{\lim_{\Delta t\rightarrow 0} \frac { \vec{r}(t+\Delta t) - \vec{r}(t)}{\Delta t}} =\vec{r}'(t)\\
+\vec{a}(t) &= \displaystyle{\lim_{\Delta t\rightarrow 0} \frac { \vec{v}(t+\Delta t) - \vec{v}(t)}{\Delta t}} =\vec{v}'(t) =\vec{r}''(t) \\
 v(t) &= \left\| \vec{v}(t) \right\|
 \end{align*}
 $$
