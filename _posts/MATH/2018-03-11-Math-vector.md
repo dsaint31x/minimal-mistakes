@@ -84,7 +84,7 @@ $$\begin {align*}
 	\end {align*}
 $$
 
-![inner product|center](https://3.bp.blogspot.com/-tG6hZGxCTSE/Vz10hcnO7cI/AAAAAAAA_Yw/r2MXMoZW45ItjESLc2JjRFlVW6EU8vHOACLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
+![inner product](https://3.bp.blogspot.com/-tG6hZGxCTSE/Vz10hcnO7cI/AAAAAAAA_Yw/r2MXMoZW45ItjESLc2JjRFlVW6EU8vHOACLcB/s1600/%25EC%25BA%25A1%25EC%25B2%2598.PNG)
 
 ### Unit vector
 
@@ -153,14 +153,17 @@ $$
 	* $$\beta$$ is the angle b/w $$\vec{v}$$ and the positive y-axis ($$0 \le \beta \le \pi$$)
 	* $$\gamma$$ is the angle b/w $$\vec{v}$$ and the positive z-axis ($$0 \le \gamma \le \pi$$)
 * $\vec{v}$의 directional cosines $\lambda, \mu, \nu$ 는 다음과 같이 정의됨.
-	* $$\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$$
-	* $$\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$$
-	* $$\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$$
+	* $\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$.
+	* $\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$.
+	* $\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$.
 
 다음이 성립함.
 
 $$
-\left\|\vec {v}\right\|_2 = A = |\vec {v}| = \sqrt{a^2+b^2+c^2}=A\sqrt{\lambda^2+\mu^2+\nu^2} \\
-\therefore \sqrt{\lambda^2+\mu^2+\nu^2} = 1
+\begin{align*}
+\left\|\vec {v}\right\|_2 = A = |\vec {v}| &= \sqrt{a^2+b^2+c^2}\\
+&=A\sqrt{\lambda^2+\mu^2+\nu^2} \\
+&\therefore \sqrt{\lambda^2+\mu^2+\nu^2} = 1
+\end{align*}
 $$
 
