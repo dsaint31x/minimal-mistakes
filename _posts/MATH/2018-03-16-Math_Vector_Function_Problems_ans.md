@@ -19,9 +19,9 @@ tags:
 공간에서 움직이는 물체의 position vector $\vec{r}(t)$가 시간 $t$에 대해 다음과 같다.
 
 $$
-\begin{aligh*}
+\begin{align*}
 \vec{r}(t)=\left< e^t, \cos{t}, t^3\right>
-\end{aligh*}
+\end{align*}
 $$
 
 다음을 구하시오
@@ -30,7 +30,7 @@ $$
 
 > **sol.** 
 >	
->	  **velocity**$= \vec{r}' = \left< e^t, -\sin{t}, 3t^2\right>$
+>	  **velocity**$=\vec{r}'=\left< e^t, -\sin{t}, 3t^2\right>$
 	
 2. speed
 
@@ -62,7 +62,9 @@ $$
 
 1. velocity
 
-	$$
+> **sol.**
+>
+>	$$
 	\begin{align*}
 	\vec{v}(t) &= \int_0^t \vec{a}(\tau)d \tau \\
 	&= \left< \int_0^t 2\tau d \tau, \int_0^t 3\tau^2 d \tau , \int_0^t 1 d \tau\right>\\
@@ -77,7 +79,9 @@ $$
 	
 2. position vector
 
-	$$
+> **sol.**
+>
+> $$
 	\begin{align*}
 	\vec{r}(t) &= \int_0^t \vec{v}(\tau)d \tau \\
 	&= \left< \int_0^t (\tau^2+2) d \tau, \int_0^t (\tau^3+1) d \tau , \int_0^t \tau d \tau\right>\\
@@ -97,7 +101,7 @@ $$
 다음의 vector function이 있다고 하자.
 
 $$
-\begin{aligh*}
+\begin{align*}
 \vec{v}(t) = \left< t, \cos{t}, \sin{t}\right>
 \end{align*}
 $$
@@ -106,8 +110,9 @@ $$
 
 1. unit tangent vector
 
-  **sol.**
-	$$
+> **sol.**
+> 
+>	$$
 	\begin{align*}
 	\vec{T}(t) &= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\left\| \left< 1,-\sin{t},\cos{t}\right>\right\|_2} \\
 	&= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\sqrt{2}}
@@ -116,9 +121,9 @@ $$
 	
 2. unit normal vector
 
-
-  **sol.**
-	$$
+> **sol.**
+> 
+> $$
 	\begin{align*}
 	\vec{N}(t) &= \frac{\vec{T}'}{\left\| \vec{T}' \right\|_2}\\
 	&=\frac{
@@ -136,9 +141,9 @@ $$
 3차원상에서  위치벡터 $\vec{r}=<x,y,z>$와 원점으로부터 거리를 나타내는 Scalar field $f(\vec{r})$을 구하라.
 
 
-**sol.**
-
-$$
+> **sol.**
+> 
+> $$
 \begin{align*}
 f(\vec{r}) = f(<x,y,z>)=\sqrt{x^2+y^2+z^2}
 \end{align*}
@@ -159,9 +164,9 @@ $$
 \end{align*}
 $$
 
-**sol.**
-
-$$
+> **sol.**
+> 
+> $$
 \begin{align*}
 \vec{a}'(t) &= <4t, -3\sin{t}, e^t> \\
 \vec{b}'(t) &= <\sin{t}+t\cos{t}, \cos{t}-t\sin{t}, 1> \\
