@@ -15,7 +15,7 @@ tags:
 
 다음의 RC회로를 미분방정식을 이용한 고전적 방식으로 풀어본다.
 
-![RC](./1586845233066.png)
+![RC](https://docs.google.com/drawings/d/e/2PACX-1vR2kKN5ZCcOWG17FavDIqii5uGvgJ6QQUprB6G1upB9Wj9PbAUyLAdhLU5hGJiDxa9d5l7R2VrIP3FA/pub?w=460&h=219)
 
 * $t=0$에서 스위치가 닫힘.
 
