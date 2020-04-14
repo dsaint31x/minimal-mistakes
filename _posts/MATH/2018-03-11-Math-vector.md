@@ -1,6 +1,6 @@
 ---
-title: "[Math] 벡터 기본"
-last_modified_at: 2018-03-11
+title:  "[Math] 벡터 기본"
+last_modified_at:   2018-03-11
 author: dsaint31
 categories: 
   - Mathematics
@@ -13,7 +13,6 @@ tags:
 ---
 
 # [Math] Vector (1)
-
 @(Mathematics)[physics, vector]
 
 ### scalar
