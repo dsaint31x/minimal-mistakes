@@ -84,7 +84,7 @@ Vector function $\vec{v} = \left< P(t), Q(t),R(t) \right>$ 가 $t=a$에서 연�
 
 Vector function $\vec{v}(t)$의 derivative(도함수)는 다음과 같이 정의됨.
 
-$\vec{v}(t)$는 **tangent vector**라고 불림.
+$\vec{v}'(t)$는 **tangent vector**라고 불림.
 
 $$
 \begin{align*}
