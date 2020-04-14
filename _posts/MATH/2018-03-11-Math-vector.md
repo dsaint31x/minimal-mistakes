@@ -147,8 +147,10 @@ $$
 
 벡터 v를 다음과 같은 직교좌표계에서 나타낼 경우, $\text{i}$,$\text{j}$,$\text{k}$라는 x축, y축, z축의 **positive direction**을 방향으로 하는 **base unit vector**를 이용하여 표현. 
 
-$$ 
+$$
+\begin{align*}
 \vec{v} = a \vec{i} + b\vec{j} +c\vec{k} 
+\end{align*}
 $$
 
 ![Vector of Cartesian Coordinate](https://docs.google.com/drawings/d/e/2PACX-1vR32QklmhWb9eKuRBaDs5ZoeJ0z2VuxEavTUOK6vMw8h03YdrwyNRjiSnleyDONDq_RfuAG0Ly5ytDn/pub?w=406&h=257)
@@ -162,9 +164,9 @@ $$
 	* $$\beta$$ is the angle b/w $$\vec{v}$$ and the positive y-axis ($$0 \le \beta \le \pi$$)
 	* $$\gamma$$ is the angle b/w $$\vec{v}$$ and the positive z-axis ($$0 \le \gamma \le \pi$$)
 * $\vec{v}$의 directional cosines $\lambda, \mu, \nu$ 는 다음과 같이 정의됨.
-	* $\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$.
-	* $\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$.
-	* $\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$.
+	* $$\lambda = \cos{\alpha} = \frac{a}{|\vec{v}|}$$.
+	* $$\mu = \cos{\beta} = \frac{b}{|\vec{v}|}$$.
+	* $$\nu = \cos{\gamma} = \frac{c}{|\vec{v}|}$$.
 
 다음이 성립함.
 
