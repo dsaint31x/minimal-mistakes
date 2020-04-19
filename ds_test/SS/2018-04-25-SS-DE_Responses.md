@@ -1,7 +1,8 @@
 ---
 title:  "[SS] Differential Equation and Responses (zero-input, zero-state, natural, forced)"
 date:   2018-04-25 21:43:59
-categories: Signals_and_Systems
+categories: 
+  - Signals_and_Systems
 use_math: true
 tags: Laplace
 ---
