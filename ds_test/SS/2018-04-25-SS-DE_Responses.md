@@ -1,12 +1,14 @@
 ---
 title:  "[SS] Differential Equation and Responses (zero-input, zero-state, natural, forced)"
-date:   2018-04-25 21:43:59
-categories: Signals_and_Systems
+last_modified_at: 2018-04-25 21:43:59
+categories: 
+ - SS
 use_math: true
-tags: Laplace
+tags: 
+ - Laplace
 ---
 
-다음 미분방정식 의 시스템이 있다고 하자.
+다음 **미분방정식** 의 시스템이 있다고 하자.
 
 $$
 \frac{d^2 y(t)}{dt^2} + 3\frac{dy(t)}{dt}+2y(t)=\frac{dx(t)}{dt}

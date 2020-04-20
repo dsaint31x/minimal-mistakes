@@ -3,7 +3,7 @@ title:  "[Math] Types of Number"
 last_modified_at:   2020-03-30
 author: dsaint31
 categories: 
-  - Math
+  - Mathematics
 use_math: false
 tags: 
   - Math

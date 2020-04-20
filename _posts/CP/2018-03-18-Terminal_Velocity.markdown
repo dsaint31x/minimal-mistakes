@@ -10,31 +10,31 @@ tags: physics
 # 빗방울의 종단속도(terminal velocity)
 @(Physics)[physics]
 
-1. 빗방울은 free-fall이 아님 = Air drag존재.
-2. 중력에 대해, 크게 2가지의 저항력이 있음.
+1. 빗방울 낙하는 `free-fall`이 아님 = `Air drag`존재.
+2. **중력**에 대해, 크게 **2가지의 저항력**이 있음.
 3. **마찰 저항** : 물방울 표면적이 둘러싸고 있는 공기와 접촉으로 인해 떨어지는 것을 방해하는 힘으로 작용. **점성저항** 이라고도 불림.
-4. **압축 저항** : 물방울이 떨어질 때 물망울 밑에 있는 공기들이 물발울이 떨어지는 것을 방해하는것.
-5. **종단속도**는 이 2개의 저항력과 중력을 고려하여 계산 가능.
-6. 2가지 방법( **differential equation**과 **힘의 평형**을 이용한 방법)으로 풀 수 있는데, 전자는 종단 속도 외에 시간당 빗방울의 속도함수를 아예 구해낼 수 있음.
+4. **압축 저항** : 물방울이 떨어질 때 물방울 밑에 있는 공기들이 물방울이 떨어지는 것을 방해하는것.
+5. **종단속도**는 이 `2개의 저항력`과 `중력`을 고려하여 계산 가능.
+6. 2가지 방법( **differential equation**과 **힘의 평형**을 이용한 방법)으로 풀 수 있는데, 전자(de)는 종단 속도 외에 시간당 빗방울의 속도함수를 아예 구해낼 수 있음.
 
 즉, 3개의 힘이 작용함.
 
 * 중력
-* 마찰저항 ($\propto v_{fall}$) : $v_{fall}$이 느린 경우 영향력이 큼.
-* 압축저항 ($\propto v_{fall}^2$) : $v_{fall}$이 매우 빠른 경우 영향력이 커짐. 
+* 마찰저항 ($\propto v_{fall}$) : $v_{\text{fall}}$이 느린 경우 영향력이 큼.
+* 압축저항 ($\propto v_{fall}^2$) : $v_{\text{fall}}$이 매우 빠른 경우 영향력이 커짐. 
 
-위 3힘 중 작은 빗방울의 경우 압축저항은 무시할 수 있으므로 일단 마찰저항을 중심으로 생각하면 다음 2개의 힘이 됨.
+위 3힘 중 작은 빗방울(표면적 작고 가벼움)의 경우 압축저항은 무시할 수 있으므로 일단 마찰저항을 중심으로 생각하면 다음 2개의 힘이 됨.
 
 * 떨어지는 힘.
 
 $$ 
-F = ma_{gravity} =mg
+F = ma_{\text{gravity}} =mg
 $$
 
 * 이를 방해하는 힘.
 
 $$
-F_{air-drag}=kv_{fall}
+F_{\text{air-drag}}=kv_{\text{fall}}
 $$
 
 여기서 $k$는 일종의 마찰상수라고 생각하면 되며, 양수임.
@@ -43,10 +43,10 @@ Newton의 제2법칙(The law of acceleration)을 적용하면
 
 $$
 \begin{align*} 
-F_{final}=ma&=m\frac{dv(t)}{dt}\\
+F_{\text{final}}=ma&=m\dfrac{dv(t)}{dt}\\
 \quad &= mg - kv(t) \\
 \\
-\frac{dv(t)}{dt} &= -g-\frac{k}{m}v(t)
+\dfrac{dv(t)}{dt} &= -g-\dfrac{k}{m}v(t)
 \end{align*}
 $$
 
@@ -113,7 +113,7 @@ $$
 
 $$
 \begin{align*} 
-mg &= kv_{terminal} \\
-v_{terminal} &= \frac {mg}{k}
+mg &= kv_{\text{terminal}} \\
+v_{\text{terminal}} &= \frac {mg}{k}
 \end{align*}
 $$

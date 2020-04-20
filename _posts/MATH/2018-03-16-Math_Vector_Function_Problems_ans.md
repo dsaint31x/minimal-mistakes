@@ -1,6 +1,6 @@
 ---
 title:  "[Math] 벡터함수 (간단예제 및 답)"
-last_modified_at:   2019-02-25
+last_modified_at:   2018-03-16
 author: dsaint31
 categories: 
   - Mathematics
@@ -11,45 +11,60 @@ tags:
 ---
 
 # [Math] Vector (2) : Vector Function : ex
-@(Mathematics)[physics, vector, mathematics, Mathematics]
 
-### Problem 1. 
+@(Mathematics)[physics, vector, mathematics]
+
+## Problem 1. 
 
 공간에서 움직이는 물체의 position vector $\vec{r}(t)$가 시간 $t$에 대해 다음과 같다.
-$$\vec{r}(t)=\left< e^t, \cos{t}, t^3\right>$$
+
+$$
+\begin{align*}
+\vec{r}(t)=\left< e^t, \cos{t}, t^3\right>
+\end{align*}
+$$
 
 다음을 구하시오
-1. velocity
 
-	sol. 
-	
-	**velocity**$= \vec{r} \prime = \left< e^t, -\sin{t}, 3t^2\right>$
-	
-2. speed
+1.velocity
 
-	sol. 
+> **sol.**  
+>	
+>   **velocity**$=\vec{r}'=\left< e^t, -\sin{t}, 3t^2\right>$
 	
-	**speed**$=\left\| \vec{r} \prime\right\|_2 = \sqrt{ e^{2t} + (-\sin{t})^2 + (3t^2)^2 }  = \sqrt{ e^{2t} + \sin^2{t} + 9t^4 }$
-	
-3. acceleration
+2.speed
 
-	sol. 
+> **sol.** 
+> 
+>   **speed**$=\left\| \vec{r}'\right\|_2 = \sqrt{ e^{2t} + (-\sin{t})^2 + (3t^2)^2 }  = \sqrt{ e^{2t} + \sin^2{t} + 9t^4 }$
 	
-	**acceleration**$=\left< e^t, -\cos{t}, 6t\right>$  
+3.acceleration
+
+> **sol.** 
+> 
+>   **acceleration**$=\left< e^t, -\cos{t}, 6t\right>$  
 
 ---
 
-### Problem 2. 
+## Problem 2. 
 
 공간에서 움직이는 물체의 $t=0$에서 position vector와 velocity가 다음과 같다.
 
-$$ \vec{r}(0)=\left< 0,1,0\right> , \quad \vec{v}(0)=\left < 2,1,0 \right> $$
+$$ 
+\begin{align*}
+\vec{r}(0)&=\left< 0,1,0\right>\\
+\vec{v}(0)&=\left < 2,1,0 \right> 
+\end{align*}
+$$
+
 
 해당 물체의 가속도가 $\left< 2t,3t^2, 1\right>$일 경우, 시간 $t$에서의 다음을 구하시오.
 
-1. velocity
+1.velocity
 
-	$$
+> **sol.**
+>
+> $$
 	\begin{align*}
 	\vec{v}(t) &= \int_0^t \vec{a}(\tau)d \tau \\
 	&= \left< \int_0^t 2\tau d \tau, \int_0^t 3\tau^2 d \tau , \int_0^t 1 d \tau\right>\\
@@ -62,9 +77,11 @@ $$ \vec{r}(0)=\left< 0,1,0\right> , \quad \vec{v}(0)=\left < 2,1,0 \right> $$
 	\end{align*}
 	$$
 	
-2. position vector
+2.position vector
 
-	$$
+> **sol.**
+>
+> $$
 	\begin{align*}
 	\vec{r}(t) &= \int_0^t \vec{v}(\tau)d \tau \\
 	&= \left< \int_0^t (\tau^2+2) d \tau, \int_0^t (\tau^3+1) d \tau , \int_0^t \tau d \tau\right>\\
@@ -84,25 +101,31 @@ $$ \vec{r}(0)=\left< 0,1,0\right> , \quad \vec{v}(0)=\left < 2,1,0 \right> $$
 다음의 vector function이 있다고 하자.
 
 $$
+\begin{align*}
 \vec{v}(t) = \left< t, \cos{t}, \sin{t}\right>
+\end{align*}
 $$
 
 해당 vector function에 대한 다음을 구하시오.
 
-1. unit tangent vector
+1.unit tangent vector
 
-	$$
+> **sol.**
+> 
+> $$
 	\begin{align*}
 	\vec{T}(t) &= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\left\| \left< 1,-\sin{t},\cos{t}\right>\right\|_2} \\
 	&= \frac{ \left< 1,-\sin{t},\cos{t}\right>}{\sqrt{2}}
 	\end{align*}
 	$$
 	
-2. unit normal vector
+2.unit normal vector
 
-	$$
+> **sol.**
+> 
+> $$
 	\begin{align*}
-	\vec{N}(t) &= \frac{\vec{T}\prime}{\left\| \vec{T} \prime \right\|_2}\\
+	\vec{N}(t) &= \frac{\vec{T}'}{\left\| \vec{T}' \right\|_2}\\
 	&=\frac{
 	\frac{ \left< 0,-\cos{t},-\sin{t}\right>} {\sqrt{2}}
 	}{ \left\|
@@ -117,7 +140,10 @@ $$
 
 3차원상에서  위치벡터 $\vec{r}=<x,y,z>$와 원점으로부터 거리를 나타내는 Scalar field $f(\vec{r})$을 구하라.
 
-$$
+
+> **sol.**
+> 
+> $$
 \begin{align*}
 f(\vec{r}) = f(<x,y,z>)=\sqrt{x^2+y^2+z^2}
 \end{align*}
@@ -132,15 +158,15 @@ $$
 $$
 \begin{align*}
 & \vec{f}(t) = \vec{a}(t) \cdot \vec{b}(t)\\
-& where \\
+\text{where}& \\
 & \vec{a}(t) = 2t^2\vec{i}+3\cos t\vec{j}+e^t \vec{k} \\
 & \vec{b}(t) = <t \sin t, t \cos t, t>
 \end{align*}
 $$
 
-**sol.**
-
-$$
+> **sol.**
+> 
+> $$
 \begin{align*}
 \vec{a}'(t) &= <4t, -3\sin{t}, e^t> \\
 \vec{b}'(t) &= <\sin{t}+t\cos{t}, \cos{t}-t\sin{t}, 1> \\
