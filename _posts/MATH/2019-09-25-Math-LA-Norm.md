@@ -48,7 +48,7 @@ Various distance measures, or **norms**, are possible:
   * reqularization : smaller and spare weight 
   * Relaxing L0 norm regularization, because the case of L0 norm is NP hard problem
 * Euclidean norm (l2-norm, RMSE, Ridge, the root of a sum of square) : $$\left\| \cdot \right\|_2$$
-  * reqularization : smaller and uniform weight 
+  * regularization : smaller and uniform weight 
   * Equivalent to MAP estimation with Gaussian prior 
 * l*P*-norm
   * The higer the norm index (*P*), **the more it focuses on large values** and neglects small ones.
