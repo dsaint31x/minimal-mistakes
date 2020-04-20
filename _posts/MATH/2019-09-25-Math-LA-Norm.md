@@ -52,7 +52,7 @@ Various distance measures, or **norms**, are possible:
   * Equivalent to MAP estimation with Gaussian prior 
 * l*P*-norm
   * The higer the norm index (*P*), **the more it focuses on large values** and neglects small ones.
-  * requlrization (~minimize problem)
+  * regularization (~minimize problem)
     * All p-norm penalize larger weights.
     * p<2 tends to create sparse (i.e. lots of 0 weights)
     * p>=2 tends to like similar weights.
