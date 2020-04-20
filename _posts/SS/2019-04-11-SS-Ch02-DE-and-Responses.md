@@ -1,5 +1,5 @@
 ---
-title:  "[SS] Differential Equation and Responses (zero-input, zero-state, natural, forced)"
+title:  "[SS] Ch02 Differential Equation and Responses (zero-input, zero-state, natural, forced)"
 last_modified_at: 2019-04-11 21:43:59
 categories: 
  - SS
