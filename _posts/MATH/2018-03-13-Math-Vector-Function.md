@@ -234,6 +234,8 @@ $$
 
 ## Normal(법선) Vector
 
+![t_n_vectors](./fig/t_n_vectors.png)
+
 * $\vec{T}'(t)$를 normal vector라고 부름.
 * Normal vector, $\vec{T}'(t)$는 tangent vector와 orthogonal함.
 * Unit tangent vector, $\vec{T}(t)$의 정의로부터 **normal vector**를 구하면 다음과 같음.
