@@ -1,7 +1,6 @@
 ---
 title:  "[SS] Ch03 Half Wave Rectifier"
 last_modified_at: 2020-04-28 11:33:59
-author: dsaint31
 categories: 
  - SS 
 use_math: true
