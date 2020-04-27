@@ -8,8 +8,7 @@ tags:
  - math
 ---
 
-# [SS] half-wave rectifier
-
+# [SS] Ch03 half-wave rectifier
 @(Signal and System)
 
 $$
@@ -106,3 +105,4 @@ $m=\pm1$
 $$
 X_{\pm 1} = \frac{A}{4} 
 $$
+
