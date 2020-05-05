@@ -26,7 +26,7 @@ Limit(sin(x)/x, x, 0).doit()
 아래의 수식은 $A \sin (\Omega_0t)$라는 입력 신호에 대해 Half wave rectifier를 통과시킨 결과에 대한 Fourier series의 계수임.
 
 $$
-\frac {A}{2\pi(1-x^2)} (e^{-j\pi x}+1)
+\frac {A}{2\pi(1-k^2)} (e^{-j\pi k}+1)
 $$
 
 이때 $k= \pm 1$ 인 경우는 다음과 같이 극한으로 계산해야 함. (분모가 0이니...)

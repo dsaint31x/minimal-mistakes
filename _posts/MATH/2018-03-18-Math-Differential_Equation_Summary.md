@@ -36,7 +36,7 @@ toc: true
 
 ## Degree
 
-* 차수
+* 차수.
 * order를 결정하는 derivative의 몇 제곱인지에 해당.
 
 $$
