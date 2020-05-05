@@ -1,14 +1,15 @@
-—
+---
 title:  “[SS] Fourier Transform of Sinusoid”
-date:   2019-04-03 13:33:59
+last_modified_at: 2019-04-03
 author: dsaint31
-categories: Signals_and_Systems
+categories: 
+ - SS
 use_math: true
 tags: 
-- FT
-- CTFT
-- Impulse Train
-—
+ - FT
+ - CTFT
+ - Impulse Train
+--—
 
 # [SS] 정현파의 FT
 
