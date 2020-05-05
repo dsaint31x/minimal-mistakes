@@ -8,7 +8,7 @@ tags:
  - FT
  - CTFT
  - Impulse Train
---—
+---
 
 # [SS] 정현파의 FT
 
