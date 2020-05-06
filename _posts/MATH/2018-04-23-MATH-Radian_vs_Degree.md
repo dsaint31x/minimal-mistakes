@@ -37,7 +37,7 @@ $$
 ### Radian의 장점
 
 * trigonometric function의 미적분시 곱해지는 상수항이 없어서 편리.
-* 원에서 반지름과 둘레가 일정한 비율을 가지다는 특성을 활용.
+* 원에서 반지름과 둘레가 일정한 비율을 가진다는 특성을 활용.
 
 ### Trigonometric function에서 Radian의 장점 (예: sin 함수 미분)
 
