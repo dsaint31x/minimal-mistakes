@@ -7,7 +7,7 @@ use_math: true
 tags: 
  - FT
  - CTFT
- - Impulse Train
+ - Sinusoid
 ---
 
 # [SS] 정현파의 FT
