@@ -1,6 +1,6 @@
 ---
-title:  "Fourier Transform of Complex Exponential Function"
-date:   2018-03-28 12:47:59
+title:  "[SS] Ch03 Fourier Transform of Complex Exponential Function"
+date:   2020-05-08 
 author: dsaint31
 categories: 
   - SS
