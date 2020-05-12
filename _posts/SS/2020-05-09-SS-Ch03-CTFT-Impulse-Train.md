@@ -1,6 +1,6 @@
 ---
 title:  "[SS] Ch03 Fourier Transform of Impulse Train"
-date:   2019-04-02 13:33:59
+date: 2019-04-02
 categories:
  - SS
 use_math: true
