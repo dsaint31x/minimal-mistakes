@@ -1,10 +1,13 @@
 ---
-title:  "[SS] Fourier Transform of Impulse Train"
+title:  "[SS] Ch03 Fourier Transform of Impulse Train"
 date:   2019-04-02 13:33:59
-author: dsaint31
-categories: Signals_and_Systems
+categories:
+ - SS
 use_math: true
-tags: FT, CTFT, Impulse Train
+tags: 
+ - FT
+ - CTFT
+ - Impulse Train
 ---
 
 # [SS] Impulse Train의 FT 구하기.
