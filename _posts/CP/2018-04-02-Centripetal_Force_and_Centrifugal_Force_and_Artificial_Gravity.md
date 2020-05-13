@@ -16,29 +16,32 @@ tags: physics
 
 우선 angular speed는 다음과 같음.
 
-$$\omega = 1rpm = \frac{2\pi}{60}$$
+$$\omega = 1\text{rpm} = \frac{2\pi}{60}$$
 
 그러면 tangential speed는 다음과 같음.
 
-$$v_{tangential}=r\omega=r\frac{2\pi}{60}$$
+$$v_\text{tangential}=r\omega=r\frac{2\pi}{60}$$
 
 지구의 중력은 다음과 같으므로 정거장 내에 있는 이들이 겪는 원심력의 크기를 알 수 있음.
 
-$$f_{gravity}=mg = 10m$$
+$$f_\text{gravity}=mg = 10m$$
 
 여기서 $m$은 질량임.
 
 
 우주정거장의 구심력은 다음과 같음.
 
-$$f_{centripetal}=\frac{mv^2}{r}$$
+$$f_\text{centripetal}=\frac{mv^2}{r}$$
 
 여기서 $v$는 tangential speed임.
 
 
-관성기준계의 구심력은 비관성기준계의 원심력과 크기가 같은 부분을 이용하여 실제 회전하는 링형태의 우주 정거장의 원심력이 중력과 같게 놓을 경우 다음의 등식을 만족하게 됨.
+1. 관성기준계의 구심력은 **비관성기준계(가속하고 있는 계)**의 원심력과 크기가 같은 부분을 이용하여 
+2. 실제 **회전(가속운동)하는 링 형태의 우주 정거장(rotating referece frame, 가속하고 있는 계)**의 원심력이 중력과 같게 놓을 경우 
 
-$$f_{centripetal}=f_{gravity}$$
+다음의 등식을 만족하게 됨.
+
+$$f_\text{centripetal}=f_\text{gravity}$$
 
 이 등식에, 위의 식들과 1rpm을 실제 대잏하여 전개하면 다음과 같이 링의 반경이 나옴.
 
