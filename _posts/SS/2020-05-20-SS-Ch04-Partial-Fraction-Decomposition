@@ -1,10 +1,11 @@
 ---
 title:  "[SS] Partial Fraction Decomposition"
-categories: SS
-author: dsaint31
+date: 2020-05-20
+categories:
+ - SS
 use_math: true
-tags: Partial_Fraction_Decomposition ss
-toc: true
+tags: 
+ - Partial_Fraction_Decomposition
 ---
 
 # 부분분수분해
