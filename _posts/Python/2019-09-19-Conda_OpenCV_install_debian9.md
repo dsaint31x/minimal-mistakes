@@ -4,7 +4,7 @@ last_modified_at:   2019-09-19
 author: dsaint31
 categories: 
   - Conda
-  - Phython
+  - Python
 use_math: true
 tags: 
   - anaconda
