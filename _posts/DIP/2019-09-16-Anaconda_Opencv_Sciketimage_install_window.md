@@ -4,7 +4,7 @@ last_modified_at:   2019-09-16
 author: dsaint31
 categories: 
   - DIP
-  - Phython
+  - Python
 use_math: true
 tags: 
   - anaconda
