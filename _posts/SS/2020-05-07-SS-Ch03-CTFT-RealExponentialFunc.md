@@ -1,10 +1,14 @@
 ---
-title:  "Fourier Transform of Real Exponential Function"
-date:   2018-03-28 12:47:59
+title:  "[SS] Ch03 Fourier Transform of Real Exponential Function"
+date:   2020-05-07 12:47:59
 author: dsaint31
-categories: Signals_and_Systems
-use_math: true
-tags: Fourier Exponential
+categories: 
+  - SS
+use_math: 
+  - true
+tags: 
+  - Fourier 
+  - Exponential
 ---
 
 # [SS] Fourier Transform of Real Exponential Function

@@ -1,5 +1,5 @@
 ---
-title:  “[SS] Ch03 Fourier Transform of Sinusoid”
+title:  "[SS] Ch03 Fourier Transform of Sinusoid"
 last_modified_at: 2019-04-03
 categories: 
  - SS
@@ -7,8 +7,8 @@ use_math: true
 tags: 
  - FT
  - CTFT
- - Impulse Train
---—
+ - Sinusoid
+---
 
 # [SS] 정현파의 FT
 

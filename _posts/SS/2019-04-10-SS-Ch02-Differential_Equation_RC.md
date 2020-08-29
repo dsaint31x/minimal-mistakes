@@ -94,7 +94,7 @@ $$
 
 $$
 \begin{align*}
-\frac{dq_p(t)}{dt}+\frac{1}{RC}i(t) &= \frac{E}{R} \\
+\frac{dq_p(t)}{dt}+\frac{1}{RC}q_p(t) &= \frac{E}{R} \\
 \frac{dn}{dt}+\frac{1}{RC}n &= \frac{E}{R} \\
 0+\frac{1}{RC}n &= \frac{E}{R} \\
 n &= CE \\

@@ -4,7 +4,7 @@ last_modified_at:   2019-09-16
 author: dsaint31
 categories: 
   - DIP
-  - Phython
+  - Python
 use_math: true
 tags: 
   - anaconda
@@ -66,7 +66,7 @@ conda update --all
 
 ### 3.Create a new environment for DIP
 
-필요한 package가 opencv, matplotlib, sickit-image 정도임.
+필요한 package가 opencv, matplotlib, scikit-image 정도임.
 opencv를 제외하고는 anaconda에서 설치가 되므로 opencv만 지정해준다.
 
 ```bash
