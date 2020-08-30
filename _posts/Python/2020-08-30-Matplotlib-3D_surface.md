@@ -1,4 +1,4 @@
-—
+---
 title:  “[matplotlib] How to use plot_surface”
 last_modified_at:   2020-08-30
 author: dsaint31
@@ -7,7 +7,8 @@ categories:
 use_math: false
 tags: 
   - plot_surface
-—
+---
+
 # [Matplotlib] How to use plot_surface
 
 `view_init`
