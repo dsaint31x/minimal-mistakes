@@ -56,7 +56,7 @@ $$
 * 모든 $y$(종속변수)와 그 derivative는 1차 이내여야 함.
 * 위 식에서 $a_n(t)=1$일 때, 표준형이라고 함.
 
-> * 비선형의 경우, 일부의 경우를 제외하고 손으로 풀기(analytic method, 해석적 해법 적용)는 힘듬(Numerical method 적용해야 함.).
+> * 비선형의 경우, 일부의 경우를 제외하고 손으로 풀기(analytic method, 해석적 해법 적용)는 힘듦(Numerical method 적용해야 함.).
 > * 선형이라도, order가 2이상인 경우 coeffiicient들이 상수가 아닐 경우 풀기 어려움.
 > * 독립변수 $t$가 시간일 경우, time-invariant system에 대한 equation은 모든 coefficient가 상수.
 
