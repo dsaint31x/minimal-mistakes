@@ -96,6 +96,7 @@ $$y(0^-)=2 \\
 
         $$y_\text{f}(t)=t+1$$
 
-보통은 이처럼 풀지 않고, Laplace transform을 이용하여 s-domain에서 미방을 푸는게 일반적임. 
+## Sol 2.
 
+보통은 이처럼 풀지 않고, Laplace transform을 이용하여 s-domain에서 미방을 푸는게 일반적임. 
 [[SS] Ch02 Differential Equation and Responses (zero-input, zero-state, natural, forced)](https://www.dsaint31.me/ss/ss-ch02-de-and-responses/)
