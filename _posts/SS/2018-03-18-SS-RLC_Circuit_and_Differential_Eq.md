@@ -16,6 +16,12 @@ tags:
 
 ![RLC_Circuit](https://docs.google.com/drawings/d/1pq5sXwja10Z4VRZ02fDbR7aJjUIyh3xt7eNjdDM-fo0/pub?w=359&amp;h=187)
 
+위의 회로의 초기조건은 다음과 같음.
+* $$y(0^-)=0$$, $$V_c(0^-)=5$$
+
+Input signal는 다음과 같음.
+* $$x(t) = 10e^{-3t}u(t)$$
+
 위 회로에 대한 differential eq.는 다음과 같음.
 
 $${ V }_{ L }+{ V }_{ R }+{ V }_{ C }=x\left( t \right) \\ 1\frac { dy\left( t \right) }{ dt } +3y\left( t \right) +{ \frac { 1 }{ \frac { 1 }{ 2 } } }\int { y\left( t \right) dt } =x\left( t \right) \\ \frac { { d }^{ 2 }y\left( t \right) }{ d{ t }^{ 2 } } +3\frac { dy\left( t \right) }{ dt } +2y\left( t \right) =\frac { dx\left( t \right) }{ dt } \\ { D }^{ 2 }y\left( t \right) +3Dy\left( t \right) +2y\left( t \right) =Dx\left( t \right) $$
