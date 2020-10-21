@@ -3,7 +3,7 @@ title:  "[SS] Impulse Function의 정의."
 last_modified_at:   2017-02-27
 author: dsaint31
 categories: 
-  - Signals_and_Systems
+  - SS
 use_math: true
 tags: 
   - impulse
