@@ -1,4 +1,4 @@
-—
+---
 title: “[iPad] Working Copy”
 last_modified_at: 2020-12-20
 categories: 
@@ -7,7 +7,7 @@ use_math: false
 tags: 
  - Git
  - iPad
-—
+---
 
 # What
 
