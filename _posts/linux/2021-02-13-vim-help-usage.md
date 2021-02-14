@@ -10,7 +10,7 @@ tags:
   - linux
   - vim 
 ---
-[
+
 # vim 에서 help사용하기.
 
 ```bash
