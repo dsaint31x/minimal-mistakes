@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About"
 excerpt: "about.md"
-last_modified_at: 2018-07-01T12:04:24-04:00
+last_modified_at: 2021-03-01
 # feature-img: "assets/img/pexels/circuit.jpeg"
 toc: true
 tags: [About]
@@ -11,14 +11,13 @@ tags: [About]
 ## Address 
 
 Department of Biomedical Engineering, Gachon University
-
-191 Hambakmoe-ro, Yeonsu-gu, Incheon 406-799, South Korea
+191 Hambakmoe-ro, Yeonsu-gu, Incheon 21936, South Korea
 
 
 ## Contact
 
 Phone : +82 (0)32 820 4314
-Email : [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
+Email : [dsaint31@gachon.ac.kr](dsaint31@gachon.ac.kr) / [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
 
 ## Other sites
 BME, Gachon Univ : [http://bme.gachon.ac.kr/](http://bme.gachon.ac.kr)
@@ -36,10 +35,16 @@ Official Home : [http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666](h
  
 ## RESEARCH EXPERIENCES
 
-**2016 - Current**
+**2020 - Current**
+* Dean of Department of Biomedical Engineering, Colleage of Health Sciences, Gachon University, Korea
+
+**2019 - Current**
+* Associate Professor in Department of Biomedical Engineering, College of Health Sciences, Gachon University, Korea
+
+**2016 - 2019**
 * Chair of Computing & Information Center
 
-**2014 - Current**	
+**2014 - 2019**	
 * Assistant Professor in Department of Biomedical Engineering, College of Health Sciences, Gachon University, Korea
 
 **2016 - 2017**	
