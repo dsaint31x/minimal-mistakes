@@ -10,14 +10,14 @@ tags: [About]
 
 ## Address 
 
-Department of Biomedical Engineering, Gachon University
+Department of Biomedical Engineering, Gachon University <br/>
 191 Hambakmoe-ro, Yeonsu-gu, Incheon 21936, South Korea
 
 
 ## Contact
 
-Phone : +82 (0)32 820 4314
-Email : [dsaint31@gachon.ac.kr](dsaint31@gachon.ac.kr) / [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
+* Phone : +82 (0)32 820 4314
+* Email : [dsaint31@gachon.ac.kr](dsaint31@gachon.ac.kr) / [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
 
 ## Other sites
 BME, Gachon Univ : [http://bme.gachon.ac.kr/](http://bme.gachon.ac.kr)
