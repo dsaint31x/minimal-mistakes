@@ -20,8 +20,8 @@ Department of Biomedical Engineering, Gachon University <br/>
 * Email : [dsaint31@gachon.ac.kr](dsaint31@gachon.ac.kr) / [dsaint31@bme.gachon.ac.kr](dsaint31@bme.gachon.ac.kr) / [dsaint31@gmail.com](dsaint31@gmail.com)
 
 ## Other sites
-BME, Gachon Univ : [http://bme.gachon.ac.kr/](http://bme.gachon.ac.kr)
-Official Home : [http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666](http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666)
+* BME, Gachon Univ : [http://bme.gachon.ac.kr/](http://bme.gachon.ac.kr)
+* Official Home : [http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666](http://professor.gachon.ac.kr/main/main.jsp?Forum_seq=140666)
 
 ## Education
 
