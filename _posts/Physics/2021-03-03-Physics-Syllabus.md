@@ -1,6 +1,6 @@
 ---
-title:  "강의계획서: 의학물리 2020"
-last_modified_ate:   2020-03-27 14:47:59
+title:  "강의계획서: 의학물리 2021"
+last_modified_ate:   2020-03-03 14:47:59
 author: dsaint31
 categories: 
   - Physics
@@ -9,19 +9,19 @@ tags:
 ---
 
 # [Physics] Physics Syllabus
-@(Physics)[syllabus|2020|의학물리|physics]
+@(Physics)[syllabus|2021|의학물리|physics]
 
 ## 관련정보
 
-* **교과목명**:  의학물리 (M2897001 / 계열교양 / 2학점)
-* **강의시간**: 수 6-7교시
+* **교과목명**:  의학물리 ( 계열교양 / 2학점)
+* **강의시간**: 목 1-2교시
 * **강의실** : 간호대학 215호
 * **관련과목**: 수학, 공학수학, 의료기기의 이해
 
 ## Instructor
 
 * **이름** : 김행근
-* **연락처** : dsaint31@bme.gachon.ac.kr / dsaint31@gmail.com / 032-820-4314
+* **연락처** : dsaint31@gachon.ac.kr / dsaint31@bme.gachon.ac.kr / dsaint31@gmail.com / 032-820-4314
 * **Office** : 보건과학대학 808호 / 간호대학 522-1호 (연구실)
 * **Homepage** : dsaint31.me
 
@@ -42,7 +42,7 @@ tags:
 #### 과제 작성법
 
 * < 10 pages (A4, 2columns, 10pt)
-* 과제 나간 후 다음 수업시간 전까지
+* google classroom에 제시된 기한내에 제출
 *  latex 등 을 이용한 전자문서 제출 가산점 있음 ( 해당 과제 총점의 10% ) 
 *  **Google classroom**으로 제출 (숙제로 나간 경우에만 제출)
    * 첨부파일 : 스캔 파일(pdf) or word or google docs
@@ -53,7 +53,7 @@ tags:
 
 * Google Classroom로 제공.
 * Chrome 사용 권장.
-* bme.gachon.ac.kr 계정 반드시 필요.
+* gachon.ac.kr 계정 반드시 필요.
 
 ## Notes
 
