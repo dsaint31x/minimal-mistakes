@@ -8,14 +8,11 @@ tags:
   - syllabus
 ---
 
-# [Physics] Physics Syllabus
-@(Physics)[syllabus|2021|의학물리|physics]
-
 ## 관련정보
 
 * **교과목명**:  의학물리 ( 계열교양 / 2학점)
 * **강의시간**: 목 1-2교시
-* **강의실** : 간호대학 215호
+* **강의실** : 간호대학 213호
 * **관련과목**: 수학, 공학수학, 의료기기의 이해
 
 ## Instructor
@@ -45,9 +42,9 @@ tags:
 * google classroom에 제시된 기한내에 제출
 *  latex 등 을 이용한 전자문서 제출 가산점 있음 ( 해당 과제 총점의 10% ) 
 *  **Google classroom**으로 제출 (숙제로 나간 경우에만 제출)
-   * 첨부파일 : 스캔 파일(pdf) or word or google docs
+   * 첨부파일 : **스캔 파일(pdf)** or **MS-word** or **google docs**
    * 첨부파일명 : **Physics_20190304_973037_김행근**
-* 본인의 bme.gachon.ac.kr 계정을 통해 제출할 것! 
+* 본인의 gachon.ac.kr 계정을 통해 제출할 것! 
 
 ## Lecture Note & Quiz
 
