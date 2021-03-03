@@ -57,7 +57,7 @@ tags:
 #### Attendance Policy 
 
 * If absent in the midterm or final exam without any justified notification, the credit will be F. 
-*  If you miss more than 25% of the classes for this course, you cannot get any examinations. (All scores you recorded in the examinations will be unavailable.) 
+* If you miss more than 25% of the classes for this course, you cannot get any examinations. (All scores you recorded in the examinations will be unavailable.) 
 *  2 lateness = 1 absent
 
 #### Ethics regarding this course
