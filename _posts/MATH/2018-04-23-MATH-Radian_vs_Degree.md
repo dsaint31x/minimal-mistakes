@@ -22,7 +22,7 @@ tags:
 원(흔히 단위원)에서 원주와 반지름의 길이가 같아질 때의 θ를 1 radian이라고 함.
 
 $$  
-\theta = \frac{l_{arc}}{l_{radian}} 
+\theta = \frac{l_{arc}}{l_{radius}} 
 $$
 
 ![radian](https://docs.google.com/drawings/d/e/2PACX-1vQcUiUPcrTIEeWFE59QPqZO240PVaYSRZGBsB9B_RNMhmP5NrT5H6JWxTIaXNb0D0Y-F8K8FhCUREka/pub?w=142&h=1400)
